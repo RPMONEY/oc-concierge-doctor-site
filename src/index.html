@@ -61,27 +61,24 @@
 <p class="muted" style="max-width:420px">From a sinus infection to Botox to a long-term hormone plan, you see Dr. Khan every time.</p>
 </div>
 <div class="pillars">
-<div class="pillar on-ink">
-<h3>Medical Care</h3>
-<p>Primary and urgent care, chronic conditions, weight and hormones.</p>
+<details class="pillar" open>
+<summary><span class="pl-head"><h3>Medical Care</h3><span class="pl-count">{{LIST:count:medical}} treatments</span></span><p>Primary and urgent care, chronic conditions, weight and hormones.</p></summary>
 <div class="tx-list">
 {{LIST:rows:medical}}
 </div>
-</div>
-<div class="pillar on-ink">
-<h3>Aesthetics</h3>
-<p>Injectables, lasers and body contouring, placed by a physician.</p>
+</details>
+<details class="pillar" open>
+<summary><span class="pl-head"><h3>Aesthetics</h3><span class="pl-count">{{LIST:count:aesthetics}} treatments</span></span><p>Injectables, lasers and body contouring, placed by a physician.</p></summary>
 <div class="tx-list">
 {{LIST:rows:aesthetics}}
 </div>
-</div>
-<div class="pillar on-ink">
-<h3>Regenerative</h3>
-<p>Exosome treatments for skin, hair, ED and recovery support.</p>
+</details>
+<details class="pillar" open>
+<summary><span class="pl-head"><h3>Regenerative</h3><span class="pl-count">{{LIST:count:regenerative}} treatments</span></span><p>Exosome treatments for skin, hair, ED and recovery support.</p></summary>
 <div class="tx-list">
 {{LIST:rows:regenerative}}
 </div>
-</div>
+</details>
 </div>
 </div>
 </section>
@@ -182,6 +179,7 @@
 
 </main>
 {{> footer}}
+{{> pillar-js}}
 <!-- build {{BUILD}} -->
 </body>
 </html>
