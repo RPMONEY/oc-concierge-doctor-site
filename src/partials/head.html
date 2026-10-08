@@ -74,6 +74,8 @@ p{margin:0}
 .panel{background:var(--sand);border-radius:var(--r-lg);padding:clamp(24px,4.5vw,60px)}
 .panel-ink{background:var(--deep);color:var(--on);border-radius:var(--r-lg);padding:clamp(24px,4.5vw,60px);position:relative;overflow:hidden;isolation:isolate}
 .mark-bg{position:absolute;z-index:-1;pointer-events:none;color:var(--on);opacity:.05}
+.mark-key{align-self:flex-end;width:clamp(130px,13vw,170px);color:var(--on);opacity:.3;line-height:0}
+@media (max-width:980px){.mark-key{display:none}}
 .split{display:flex;flex-wrap:wrap;gap:40px 64px}
 .split>.side{flex:1 1 300px;min-width:0;display:flex;flex-direction:column;gap:14px}
 .split>.main{flex:2 1 560px;min-width:0}
