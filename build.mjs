@@ -36,6 +36,7 @@ const LISTS = {
   menu: (g) => inGroup(g).map((t) => `<a href="/${t.slug}">${t.name}</a>`).join("\n"),
   mnav: (g) => inGroup(g).map((t) => `<a href="/${t.slug}">${t.name}</a>`).join(""),
   foot: (g) => inGroup(g).map((t) => `<a href="/${t.slug}">${t.name}</a>`).join("\n"),
+  chips: (g) => inGroup(g).map((t) => `<a href="/${t.slug}" class="chip">${t.name}</a>`).join("\n"),
   count: (g) => String(inGroup(g).length),
   rows: (g) => inGroup(g).map((t) => `<a href="/${t.slug}" class="tx-row"><b>${t.name}</b><span>${t.short}</span></a>`).join("\n"),
 };

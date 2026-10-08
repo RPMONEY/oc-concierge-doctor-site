@@ -89,25 +89,25 @@
 <section class="wrap sec" id="what">
 <div class="stack gap-l">
 <div class="stack gap-s"><span class="eyebrow">What Dr. Khan treats</span><h2 class="h2">Care under one roof.</h2></div>
-<div class="pillars">
-<details class="pillar" open>
-<summary><span class="pl-head"><h3>Medical Care</h3><span class="pl-count">{{LIST:count:medical}} treatments</span></span><p>Primary and urgent care, chronic conditions, weight and hormones.</p></summary>
-<div class="tx-list">
-{{LIST:rows:medical}}
+<div class="care-rows">
+<div class="care-row">
+<div class="care-hd"><h3>Medical Care</h3><p>Primary and urgent care, chronic conditions, weight and hormones.</p></div>
+<div class="chips">
+{{LIST:chips:medical}}
 </div>
-</details>
-<details class="pillar" open>
-<summary><span class="pl-head"><h3>Aesthetics</h3><span class="pl-count">{{LIST:count:aesthetics}} treatments</span></span><p>Injectables, lasers and body contouring.</p></summary>
-<div class="tx-list">
-{{LIST:rows:aesthetics}}
 </div>
-</details>
-<details class="pillar" open>
-<summary><span class="pl-head"><h3>Regenerative</h3><span class="pl-count">{{LIST:count:regenerative}} treatments</span></span><p>Exosome treatments for skin, hair, ED and recovery.</p></summary>
-<div class="tx-list">
-{{LIST:rows:regenerative}}
+<div class="care-row">
+<div class="care-hd"><h3>Aesthetics</h3><p>Injectables, lasers and body contouring.</p></div>
+<div class="chips">
+{{LIST:chips:aesthetics}}
 </div>
-</details>
+</div>
+<div class="care-row">
+<div class="care-hd"><h3>Regenerative</h3><p>Exosome treatments for skin, hair, ED and recovery.</p></div>
+<div class="chips">
+{{LIST:chips:regenerative}}
+</div>
+</div>
 </div>
 </div>
 </section>
@@ -126,7 +126,6 @@
 
 </main>
 {{> footer}}
-{{> pillar-js}}
 <!-- build {{BUILD}} -->
 </body>
 </html>
