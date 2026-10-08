@@ -7,7 +7,7 @@
 // so adding a treatment is one JSON file and nothing else.
 import { readFileSync, writeFileSync, mkdirSync, rmSync, readdirSync, statSync, copyFileSync, existsSync } from "node:fs";
 import { join, dirname } from "node:path";
-import { renderTreatment, GROUPS } from "./lib/treatment.mjs";
+import { renderTreatment, renderGroup, GROUPS, GROUP_PAGES } from "./lib/treatment.mjs";
 
 const { build, preview } = JSON.parse(readFileSync("build.json", "utf8"));
 const stamp = new Date().toISOString();
@@ -37,6 +37,9 @@ const LISTS = {
   mnav: (g) => inGroup(g).map((t) => `<a href="/${t.slug}">${t.name}</a>`).join(""),
   foot: (g) => inGroup(g).map((t) => `<a href="/${t.slug}">${t.name}</a>`).join("\n"),
   chips: (g) => inGroup(g).map((t) => `<a href="/${t.slug}" class="chip">${t.name}</a>`).join("\n"),
+  teaser: (g) => { const n = inGroup(g); return n.slice(0, 3).map((t) => t.name).join(", ") + (n.length > 3 ? ` and ${n.length - 3} more` : ""); },
+  page: (g) => GROUP_PAGES[g].slug,
+  desc: (g) => GROUP_PAGES[g].desc,
   count: (g) => String(inGroup(g).length),
   rows: (g) => inGroup(g).map((t) => `<a href="/${t.slug}" class="tx-row"><b>${t.name}</b><span>${t.short}</span></a>`).join("\n"),
 };
@@ -70,6 +73,12 @@ for (const d of treatments) {
   const out = join(OUT, `${d.slug}.html`);
   if (existsSync(out)) throw new Error(`${d.slug}.html exists in src and treatments`);
   writeFileSync(out, stampPage(renderTreatment(d, bySlug)));
+}
+
+for (const g of Object.keys(GROUPS)) {
+  const out = join(OUT, `${GROUP_PAGES[g].slug}.html`);
+  if (existsSync(out)) throw new Error(`${GROUP_PAGES[g].slug}.html already exists`);
+  writeFileSync(out, stampPage(renderGroup(g, inGroup(g))));
 }
 
 const pages = readdirSync(OUT).filter((n) => n.endsWith(".html") && n !== "404.html").map((n) => n === "index.html" ? "" : n.slice(0, -5));

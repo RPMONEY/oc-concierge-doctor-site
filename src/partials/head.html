@@ -239,29 +239,36 @@ p{margin:0}
 .ins{display:flex;flex-wrap:wrap;gap:8px}
 .ins span{background:var(--page);border:1px solid var(--line);border-radius:999px;padding:8px 14px;font-size:15px;font-weight:600}
 
-/* ---------- Care rows: one horizontal row per type of care ---------- */
-.care-rows{display:flex;flex-direction:column;background:var(--on);border:1px solid var(--line);border-radius:var(--r-lg);padding:0 clamp(18px,3vw,36px)}
-.care-row{display:grid;grid-template-columns:minmax(0,280px) minmax(0,1fr);gap:14px 40px;align-items:center;padding:clamp(18px,2.4vw,28px) 0;border-top:1px solid var(--line)}
-.care-row:first-child{border-top:0}
-.care-hd{display:flex;flex-direction:column;gap:4px}
-.care-hd h3{font-weight:700;font-size:clamp(24px,2.4vw,30px);line-height:1.1;color:var(--acc)}
-.care-hd p{font-size:15px;line-height:1.5;color:var(--mute)}
-.chips{display:flex;flex-wrap:wrap;gap:8px}
-.chip{display:inline-flex;align-items:center;min-height:40px;padding:8px 14px;border-radius:999px;background:var(--sand);border:1px solid var(--line);color:var(--ink);text-decoration:none;font-weight:600;font-size:15px;line-height:1.2;transition:background .15s,color .15s,border-color .15s}
-.chip:hover,.chip:focus-visible{background:var(--acc);border-color:var(--acc);color:#fff}
-@media (max-width:760px){
-  .care-rows{padding:0;overflow:hidden}
-  .care-row{grid-template-columns:1fr;gap:10px;padding:16px 0}
-  .care-hd{padding-inline:18px;flex-direction:row;align-items:baseline;justify-content:space-between}
-  .care-hd p{display:none}
-  .care-hd h3{font-size:22px}
-  .care-hd::after{content:"Swipe";font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--soft)}
-  .chips{flex-wrap:nowrap;overflow-x:auto;scroll-snap-type:x proximity;scroll-padding-inline:18px;padding:2px 0 4px;scrollbar-width:none;-webkit-mask-image:linear-gradient(90deg,#000 85%,transparent);mask-image:linear-gradient(90deg,#000 85%,transparent)}
-  .chips::-webkit-scrollbar{display:none}
-  .chip:first-child{margin-left:18px}
-  .chip:last-child{margin-right:18px}
-  .chip{flex:0 0 auto;scroll-snap-align:start;font-size:14px;min-height:40px;padding:8px 14px;white-space:nowrap}
+/* ---------- Care cards: one card per type of care ---------- */
+.care-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.care-card{background:var(--on);border:1px solid var(--line);border-radius:var(--r-lg);padding:clamp(22px,2.6vw,32px);display:flex;flex-direction:column;gap:10px;text-decoration:none;color:var(--ink);transition:border-color .15s,box-shadow .15s,transform .15s}
+.care-card:hover,.care-card:focus-visible{border-color:var(--acc);box-shadow:0 14px 34px rgba(30,50,55,.10);transform:translateY(-2px)}
+.care-count{align-self:flex-start;font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--acc);background:var(--acc-tint);border-radius:999px;padding:5px 11px}
+.care-card h3{font-weight:700;font-size:clamp(26px,2.6vw,34px);line-height:1.1;color:var(--acc);margin-top:6px}
+.care-card p{font-size:16px;color:var(--mute)}
+.care-teaser{font-size:14.5px;color:var(--soft);padding-top:12px;border-top:1px solid var(--line);margin-top:auto}
+.care-go{font-weight:700;font-size:15px;color:var(--acc);display:inline-flex;gap:8px;align-items:center}
+.care-go i{font-style:normal;transition:transform .15s}
+.care-card:hover .care-go i{transform:translateX(4px)}
+@media (max-width:900px){
+  .care-cards{grid-template-columns:1fr;gap:10px}
+  .care-card{display:grid;grid-template-columns:1fr auto;align-items:center;gap:4px 16px;padding:18px 20px}
+  .care-card h3{grid-column:1;grid-row:1;font-size:23px;margin:0}
+  .care-card p{grid-column:1;grid-row:2;font-size:14.5px}
+  .care-count,.care-teaser{display:none}
+  .care-go{grid-column:2;grid-row:1/3;font-size:0;width:40px;height:40px;border-radius:50%;background:var(--acc-tint);justify-content:center}
+  .care-go i{font-size:18px}
 }
+
+/* ---------- Treatment cards on category pages ---------- */
+.tx-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.tx-card{position:relative;background:var(--on);border:1px solid var(--line);border-radius:var(--r);padding:22px 56px 22px 22px;display:flex;flex-direction:column;gap:4px;text-decoration:none;color:var(--ink);min-height:96px;transition:border-color .15s,box-shadow .15s}
+.tx-card b{font-family:var(--display);font-weight:700;font-size:21px;line-height:1.2;color:var(--acc)}
+.tx-card span{font-size:15px;color:var(--mute)}
+.tx-card i{position:absolute;right:20px;top:50%;transform:translateY(-50%);font-style:normal;font-size:18px;color:var(--acc);width:34px;height:34px;border-radius:50%;background:var(--acc-tint);display:flex;align-items:center;justify-content:center}
+.tx-card:hover,.tx-card:focus-visible{border-color:var(--acc);box-shadow:0 12px 28px rgba(30,50,55,.08)}
+@media (max-width:980px){.tx-cards{grid-template-columns:1fr 1fr}}
+@media (max-width:620px){.tx-cards{grid-template-columns:1fr}.tx-card{min-height:0;padding:16px 54px 16px 18px}.tx-card b{font-size:19px}}
 
 /* ---------- Two-up cards on home ---------- */
 .pillars{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
