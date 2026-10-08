@@ -1,6 +1,8 @@
 {
   "name": "oc-concierge-doctor-site",
   "compatibility_date": "2026-10-01",
+  // Serve at oc-concierge-doctor-site.rp-100.workers.dev until the real domain is moved over.
+  "workers_dev": true,
   // site/ is gitignored, so Cloudflare must build it before deploying.
   "build": { "command": "node build.mjs" },
   "assets": { "directory": "./site", "not_found_handling": "404-page" }
