@@ -5,11 +5,24 @@
   "name": "Low Testosterone (TRT)",
   "short": "Energy, drive, muscle, focus",
   "title": "Low Testosterone Treatment &amp; TRT in Tustin | OC Concierge Doctor",
-  "description": "Low testosterone testing and testosterone replacement therapy in Tustin with Tariq A. Khan, MD. Injections, gels, patches and pellets, monitored with regular labs.",
+  "description": "Low testosterone testing and testosterone replacement therapy in Tustin with Tariq A. Khan, MD. Injections, gels, patches, and pellets, monitored with regular labs.",
   "h1": "Low energy. Low drive. Get it checked.",
-  "lede": "Testosterone falls naturally with age, and for some men it drops low enough to affect energy, strength, focus and sexual health. Dr. Khan confirms it with blood work and, when it fits, treats it with monitored testosterone therapy.",
+  "lede": "Testosterone falls naturally with age, and for some men it drops low enough to affect energy, strength, focus, and sexual health. Dr. Khan confirms it with blood work and, when it fits, treats it with monitored testosterone therapy.",
   "glance": "Diagnosis with labs, then testosterone therapy tailored and monitored by your doctor.",
-  "facts": [["Blood test", "Confirms the cause"], ["Your choice", "Injection, gel, patch, pellet"], ["Monitored", "Ongoing lab checks"]],
+  "facts": [
+    [
+      "Blood test",
+      "Confirms the cause"
+    ],
+    [
+      "Your choice",
+      "Injection, gel, patch, pellet"
+    ],
+    [
+      "Monitored",
+      "Ongoing lab checks"
+    ]
+  ],
   "signs": {
     "heading": "Signs of low testosterone",
     "intro": "Symptoms build slowly and are easy to blame on age or stress. A blood test tells you for sure.",
@@ -32,28 +45,63 @@
       "For many men, testosterone therapy restores levels and reverses symptoms. If the pituitary is the cause, pituitary hormones may need to be replaced instead. Treatment is customized and checked with regular labs."
     ],
     "options": [
-      { "name": "Injections", "text": "Dosed at regular intervals." },
-      { "name": "Gel or patch", "text": "Applied to the skin daily." },
-      { "meta": "Lasts 3 to 4 months", "name": "Pellet therapy", "text": "Bioidentical testosterone in a rice-sized pellet under the skin, for steady levels without daily dosing." }
+      {
+        "name": "Injections",
+        "text": "Dosed at regular intervals."
+      },
+      {
+        "name": "Gel or patch",
+        "text": "Applied to the skin daily."
+      },
+      {
+        "meta": "Lasts 3 to 4 months",
+        "name": "Pellet therapy",
+        "text": "Bioidentical testosterone in a rice-sized pellet under the skin, for steady levels without daily dosing."
+      }
     ]
   },
   "steps": {
     "heading": "From test to treatment",
     "items": [
-      ["Labs", "Comprehensive blood work to confirm low testosterone and find the cause."],
-      ["Treatment plan", "Therapy and delivery method chosen with you."],
-      ["Monitoring", "Follow-up labs to keep levels in a healthy range."]
+      [
+        "Labs",
+        "Comprehensive blood work to confirm low testosterone and find the cause."
+      ],
+      [
+        "Treatment plan",
+        "Therapy and delivery method chosen with you."
+      ],
+      [
+        "Monitoring",
+        "Follow-up labs to keep levels in a healthy range."
+      ]
     ]
   },
   "faq": [
-    ["How do I know if my testosterone is low?", "Only a blood test can confirm it. Dr. Khan orders the right labs, ideally drawn in the morning when levels peak."],
-    ["Does TRT affect fertility?", "It can lower sperm production. If you are planning to have children, tell Dr. Khan so he can factor that into your plan."],
-    ["How long until I notice a difference?", "Many men notice changes in energy and mood within weeks, with other changes over a few months. Results vary."],
-    ["Is it covered by insurance?", "Visits and labs may be billed to your plan. Coverage of medication varies. [PRICE TO COME] for pellets and cash-pay options."]
+    [
+      "How do I know if my testosterone is low?",
+      "Only a blood test can confirm it. Dr. Khan orders the right labs, ideally drawn in the morning when levels peak."
+    ],
+    [
+      "Does TRT affect fertility?",
+      "It can lower sperm production. If you are planning to have children, tell Dr. Khan so he can factor that into your plan."
+    ],
+    [
+      "How long until I notice a difference?",
+      "Many men notice changes in energy and mood within weeks, with other changes over a few months. Results vary."
+    ],
+    [
+      "Is it covered by insurance?",
+      "Visits and labs may be billed to your plan. Coverage of medication varies. [PRICE TO COME] for pellets and cash-pay options."
+    ]
   ],
-  "related": ["exosome-ed", "weight-loss", "menopause-hormone-therapy"],
+  "related": [
+    "exosome-ed",
+    "weight-loss",
+    "menopause-hormone-therapy"
+  ],
   "next": {
     "heading": "Find out where you stand.",
-    "para": "Book a visit. A simple blood test is the first step."
+    "para": "A blood test is the first step. Dr. Khan uses the results to determine what, if anything, should come next."
   }
 }

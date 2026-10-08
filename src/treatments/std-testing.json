@@ -5,47 +5,85 @@
   "name": "STD Testing",
   "short": "Private, comprehensive screening",
   "title": "Private STD Testing in Tustin | OC Concierge Doctor",
-  "description": "Comprehensive, private STD testing in Tustin with Tariq A. Khan, MD. Chlamydia, gonorrhea, syphilis, HIV and more, with an exam and treatment from your doctor.",
+  "description": "Comprehensive, private STD testing in Tustin with Tariq A. Khan, MD. Chlamydia, gonorrhea, syphilis, HIV, and more, with an exam and treatment from your doctor.",
   "h1": "Private STD testing. Straight answers.",
   "lede": "Many sexually transmitted infections cause no symptoms for months or years, and you can pass one on without knowing it. Dr. Khan offers comprehensive testing and treatment in a private office setting.",
-  "glance": "Comprehensive testing with an exam, results and treatment from the same doctor.",
-  "facts": [["Private", "Doctor's office, not a clinic line"], ["Complete", "Tests matched to you"], ["Treatment", "If you need it"]],
+  "glance": "Comprehensive testing with an exam, results, and treatment from the same doctor.",
+  "facts": [
+    [
+      "Private",
+      "Doctor's office, not a clinic line"
+    ],
+    [
+      "Complete",
+      "Tests matched to you"
+    ],
+    [
+      "Treatment",
+      "If you need it"
+    ]
+  ],
   "signs": {
     "heading": "Get tested if you notice",
     "intro": "Symptoms can be mild, come and go, or look like something else. Testing is the only way to know.",
     "items": [
       "Discharge from the vagina or penis",
       "Burning when you urinate",
-      "Itching, pain or swelling in the genitals or anus",
-      "Sores or bumps on the genitals, thighs or buttocks",
-      "Flu-like symptoms such as fever, aches or fatigue",
+      "Itching, pain, or swelling in the genitals or anus",
+      "Sores or bumps on the genitals, thighs, or buttocks",
+      "Flu-like symptoms such as fever, aches, or fatigue",
       "A new partner, or a partner who tested positive"
     ]
   },
   "basics": {
     "heading": "Why testing matters",
     "paras": [
-      "STDs spread through all types of sexual activity. Chlamydia, gonorrhea and syphilis have been rising for years, and untreated infections can cause lasting harm.",
+      "STDs spread through all types of sexual activity. Chlamydia, gonorrhea, and syphilis have been rising for years, and untreated infections can cause lasting harm.",
       "Untreated syphilis, for example, can stay dormant and later cause serious complications, can be passed to a baby during pregnancy, and makes it easier to transmit or acquire HIV. Most STDs are treatable, and many are curable, once you know."
     ]
   },
   "steps": {
     "heading": "What to expect",
     "items": [
-      ["Exam", "Dr. Khan checks for sores, warts, rashes and discharge, and asks about symptoms and risk."],
-      ["Testing", "Blood, urine, a cheek swab or a swab of a sore, depending on what he is checking for."],
-      ["Results &amp; treatment", "Dr. Khan explains your results and treats anything that needs it."]
+      [
+        "Exam",
+        "Dr. Khan checks for sores, warts, rashes, and discharge, and asks about symptoms and risk."
+      ],
+      [
+        "Testing",
+        "Blood, urine, a cheek swab, or a swab of a sore, depending on what he is checking for."
+      ],
+      [
+        "Results &amp; treatment",
+        "Dr. Khan explains your results and treats anything that needs it."
+      ]
     ]
   },
   "faq": [
-    ["Is testing confidential?", "Yes. Your visit and results are protected health information, handled privately by your doctor's office."],
-    ["Which infections do you test for?", "Testing is matched to your symptoms and risk and can include chlamydia, gonorrhea, syphilis, HIV and others. Dr. Khan helps you choose the right panel."],
-    ["How long do results take?", "[TURNAROUND TO COME]. The office will contact you when results are in."],
-    ["Will insurance cover it?", "STD screening is often covered by PPO plans and Medicare. Coverage depends on your plan."]
+    [
+      "Is testing confidential?",
+      "Yes. Your visit and results are protected health information, handled privately by your doctor's office."
+    ],
+    [
+      "Which infections do you test for?",
+      "Testing is matched to your symptoms and risk and can include chlamydia, gonorrhea, syphilis, HIV, and others. Dr. Khan helps you choose the right panel."
+    ],
+    [
+      "How long do results take?",
+      "[TURNAROUND TO COME]. The office will contact you when results are in."
+    ],
+    [
+      "Will insurance cover it?",
+      "STD screening is often covered by PPO plans and Medicare. Coverage depends on your plan."
+    ]
   ],
-  "related": ["primary-care", "urgent-care", "low-testosterone"],
+  "related": [
+    "primary-care",
+    "urgent-care",
+    "low-testosterone"
+  ],
   "next": {
-    "heading": "Know for sure.",
-    "para": "Book a private visit. Same-day and next-day appointments are usually available."
+    "heading": "Get answers. Privately.",
+    "para": "Testing is matched to your symptoms and risk, with results and treatment handled by the same doctor."
   }
 }

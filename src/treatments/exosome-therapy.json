@@ -9,7 +9,20 @@
   "h1": "Recovery support for chronic inflammation.",
   "lede": "For some patients with chronic inflammatory conditions or demanding recovery, Dr. Khan may add monthly exosome infusions or targeted injections alongside their existing medical treatment.",
   "glance": "A complement to your current treatment, never a replacement for it.",
-  "facts": [["IV or injection", "Delivery options"], ["Monthly", "Infusion schedule"], ["Complement", "Not a cure"]],
+  "facts": [
+    [
+      "IV or injection",
+      "Delivery options"
+    ],
+    [
+      "Monthly",
+      "Infusion schedule"
+    ],
+    [
+      "Complement",
+      "Not a cure"
+    ]
+  ],
   "signs": {
     "heading": "Conditions patients ask about",
     "intro": "Exosomes do not replace your medical treatment. They are offered as a possible add-on for:",
@@ -29,7 +42,7 @@
   "basics": {
     "heading": "What exosomes are",
     "paras": [
-      "Exosomes are microscopic vesicles that cells use to send signals. They carry proteins, growth factors, cytokines and genetic material. Research is ongoing into whether these signals can calm inflammation and support repair.",
+      "Exosomes are microscopic vesicles that cells use to send signals. They carry proteins, growth factors, cytokines, and genetic material. Research is ongoing into whether these signals can calm inflammation and support repair.",
       "The exosomes come from donated, screened human mesenchymal stem cells and contain no living cells. They can be given by IV infusion or injected directly into a treatment area.",
       "Exosome therapy is not a cure and is not FDA-approved for any condition. Dr. Khan uses it to help reduce symptoms and support recovery as part of a broader plan with your other doctors."
     ]
@@ -37,20 +50,45 @@
   "steps": {
     "heading": "How it works",
     "items": [
-      ["Consultation", "Dr. Khan reviews your diagnosis, current treatment and goals."],
-      ["Treatment", "IV infusion or targeted injection in the office."],
-      ["Aftercare", "Rest from strenuous activity and avoid anti-inflammatories as directed."]
+      [
+        "Consultation",
+        "Dr. Khan reviews your diagnosis, current treatment, and goals."
+      ],
+      [
+        "Treatment",
+        "IV infusion or targeted injection in the office."
+      ],
+      [
+        "Aftercare",
+        "Rest from strenuous activity and avoid anti-inflammatories as directed."
+      ]
     ]
   },
   "faq": [
-    ["Is there aftercare?", "Yes. Avoid strenuous activity for 24 to 48 hours. After injections, avoid weight lifting or running for about four weeks and ibuprofen or naproxen for about three weeks, or as Dr. Khan directs."],
-    ["Will this replace my medications?", "No. Exosome therapy complements your current treatment. Do not stop any medication without talking to the doctor who prescribed it."],
-    ["When might I notice a difference?", "Some patients report changes in energy or pain within days. Responses vary widely, and some patients notice little change."],
-    ["What does it cost?", "Cost depends on your plan. [PRICE TO COME]"]
+    [
+      "Is there aftercare?",
+      "Yes. Avoid strenuous activity for 24 to 48 hours. After injections, avoid weight lifting or running for about four weeks and ibuprofen or naproxen for about three weeks, or as Dr. Khan directs."
+    ],
+    [
+      "Will this replace my medications?",
+      "No. Exosome therapy complements your current treatment. Do not stop any medication without talking to the doctor who prescribed it."
+    ],
+    [
+      "When might I notice a difference?",
+      "Some patients report changes in energy or pain within days. Responses vary widely, and some patients notice little change."
+    ],
+    [
+      "What does it cost?",
+      "Cost depends on your plan. [PRICE TO COME]"
+    ]
   ],
-  "related": ["exosome-ed", "exosome-hair-restoration", "primary-care"],
+  "related": [
+    "exosome-ed",
+    "exosome-hair-restoration",
+    "primary-care"
+  ],
   "next": {
     "heading": "Ask if it fits your plan.",
-    "para": "Book a consultation. Dr. Khan reviews your history and tells you honestly whether exosomes make sense for you."
+    "para": "Dr. Khan reviews your history, current treatment, and goals and tells you honestly whether exosomes belong in the conversation."
   }
 }

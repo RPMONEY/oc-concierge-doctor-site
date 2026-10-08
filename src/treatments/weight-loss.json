@@ -5,11 +5,24 @@
   "name": "Medical Weight Loss",
   "short": "Physician-guided, built to last",
   "title": "Medical Weight Loss in Tustin | OC Concierge Doctor",
-  "description": "Physician-supervised weight loss in Tustin with Tariq A. Khan, MD. Nutritional assessment, a personal meal plan, medication when appropriate and body contouring options.",
+  "description": "Physician-supervised weight loss in Tustin with Tariq A. Khan, MD. Nutritional assessment, a personal meal plan, medication when appropriate, and body contouring options.",
   "h1": "Weight loss, with a doctor in your corner.",
-  "lede": "Lasting weight loss is easier with professional support. Dr. Khan combines a nutritional assessment, a personal plan, medication when it makes sense and, if you want it, aesthetic body contouring.",
+  "lede": "Sustainable weight loss starts with a plan built around your health, habits, and goals. Dr. Khan combines nutrition, activity, and medication when appropriate, with ongoing follow-up as your needs change.",
   "glance": "A physician-led program that starts with your history, not a fad diet.",
-  "facts": [["Assessment", "History &amp; nutrition"], ["Your plan", "Meals &amp; activity"], ["Adjusted", "As you progress"]],
+  "facts": [
+    [
+      "Assessment",
+      "History &amp; nutrition"
+    ],
+    [
+      "Your plan",
+      "Meals &amp; activity"
+    ],
+    [
+      "Adjusted",
+      "As you progress"
+    ]
+  ],
   "signs": {
     "heading": "Why it matters",
     "intro": "Extra weight strains the heart and joints, and fat cells release hormones that affect organs throughout the body. Losing weight lowers your risk of:",
@@ -26,31 +39,65 @@
     "heading": "How the program works",
     "paras": [
       "It starts with your medical history and the diets you have tried before, plus a nutritional assessment to check for deficiencies and build a balanced meal plan you can live with.",
-      "Based on your history and goals, Dr. Khan may add medication or supplements that curb appetite or support fat burning. These are always paired with a plan to adjust calories and increase activity, never used alone.",
+      "Based on your health history and goals, Dr. Khan may recommend medication or supplements when clinically appropriate. These are paired with nutrition and activity changes rather than used on their own.",
       "Progress is tracked at follow-up visits and the plan changes as you do. For stubborn areas, body contouring can complement the program."
     ],
     "options": [
-      { "meta": "Fat reduction", "name": "SmartLipo", "text": "Minimally invasive, laser-assisted fat removal. <a class=\"ulink\" href=\"/smartlipo\">Learn more</a>" },
-      { "meta": "Fat reduction", "name": "CoolSculpting", "text": "Non-invasive fat freezing for stubborn areas. <a class=\"ulink\" href=\"/coolsculpting\">Learn more</a>" },
-      { "meta": "Under the chin", "name": "Kybella", "text": "Injections that break down fat below the chin. <a class=\"ulink\" href=\"/kybella\">Learn more</a>" }
+      {
+        "meta": "Fat reduction",
+        "name": "SmartLipo",
+        "text": "Minimally invasive, laser-assisted fat removal. <a class=\"ulink\" href=\"/smartlipo\">Learn more</a>"
+      },
+      {
+        "meta": "Fat reduction",
+        "name": "CoolSculpting",
+        "text": "Non-invasive fat freezing for stubborn areas. <a class=\"ulink\" href=\"/coolsculpting\">Learn more</a>"
+      },
+      {
+        "meta": "Under the chin",
+        "name": "Kybella",
+        "text": "Injections that break down fat below the chin. <a class=\"ulink\" href=\"/kybella\">Learn more</a>"
+      }
     ]
   },
   "steps": {
     "heading": "Three steps to start",
     "items": [
-      ["Assessment", "History, previous diets and a nutritional evaluation."],
-      ["Personal plan", "Meal plan, activity and medication if appropriate."],
-      ["Follow-up", "Regular check-ins to track progress and adjust."]
+      [
+        "Assessment",
+        "History, previous diets, and a nutritional evaluation."
+      ],
+      [
+        "Personal plan",
+        "Meal plan, activity, and medication if appropriate."
+      ],
+      [
+        "Follow-up",
+        "Regular check-ins to track progress and adjust."
+      ]
     ]
   },
   "faq": [
-    ["Do you prescribe weight-loss medication?", "When it is appropriate for your health and goals, yes. Medication is always combined with a nutrition and activity plan."],
-    ["Can I combine weight loss with body contouring?", "Yes. Many patients add SmartLipo, CoolSculpting or Kybella for areas that do not respond to diet and exercise."],
-    ["What does the program cost?", "[PRICE TO COME]. Call the office for current pricing."]
+    [
+      "Do you prescribe weight-loss medication?",
+      "When it is appropriate for your health and goals, yes. Medication is always combined with a nutrition and activity plan."
+    ],
+    [
+      "Can I combine weight loss with body contouring?",
+      "Yes. Many patients add SmartLipo, CoolSculpting, or Kybella for areas that do not respond to diet and exercise."
+    ],
+    [
+      "What does the program cost?",
+      "[PRICE TO COME]. Call the office for current pricing."
+    ]
   ],
-  "related": ["diabetes", "coolsculpting", "smartlipo"],
+  "related": [
+    "diabetes",
+    "coolsculpting",
+    "smartlipo"
+  ],
   "next": {
-    "heading": "Start with a real plan.",
-    "para": "Book an assessment. Dr. Khan reviews your history and builds a plan that fits your life."
+    "heading": "Start with a plan built around you.",
+    "para": "Dr. Khan reviews your health, history, and goals to build an approach that makes sense for you."
   }
 }

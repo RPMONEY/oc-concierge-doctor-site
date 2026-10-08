@@ -5,11 +5,24 @@
   "name": "Juv&eacute;derm Fillers",
   "short": "Cheeks, lips, smile lines",
   "title": "Juvederm Dermal Fillers in Tustin | OC Concierge Doctor",
-  "description": "Juvederm hyaluronic acid fillers in Tustin from Tariq A. Khan, MD. Restore cheek volume, plump lips and soften lines around the nose and mouth. Results last 1 to 2 years.",
+  "description": "Juvederm hyaluronic acid fillers in Tustin from Tariq A. Khan, MD. Restore cheek volume, plump lips, and soften lines around the nose and mouth. Results last 1 to 2 years.",
   "h1": "Restore volume. Keep your face.",
-  "lede": "With age, the thin layer of fat under the skin thins out, cheeks hollow and lines deepen. Juv&eacute;derm fillers replace that lost volume, and Dr. Khan chooses the right product for each area.",
-  "glance": "Hyaluronic acid fillers for cheeks, lips and smile lines, lasting one to two years.",
-  "facts": [["1 to 2 years", "Depending on product"], ["Hyaluronic acid", "Found naturally in skin"], ["Physician", "Dr. Khan injects"]],
+  "lede": "With age, the thin layer of fat under the skin thins out, cheeks hollow, and lines deepen. Juv&eacute;derm fillers replace that lost volume, and Dr. Khan chooses the right product for each area.",
+  "glance": "Hyaluronic acid fillers for cheeks, lips, and smile lines, lasting one to two years.",
+  "facts": [
+    [
+      "1 to 2 years",
+      "Depending on product"
+    ],
+    [
+      "Hyaluronic acid",
+      "Found naturally in skin"
+    ],
+    [
+      "Physician",
+      "Dr. Khan injects"
+    ]
+  ],
   "signs": {
     "heading": "What it treats",
     "intro": "Juv&eacute;derm is a family of fillers. Each one is designed for a specific area or depth.",
@@ -25,31 +38,65 @@
     "heading": "How fillers work",
     "paras": [
       "Juv&eacute;derm is made from hyaluronic acid gel. Your skin makes hyaluronic acid naturally, where it holds moisture and adds volume.",
-      "Injected under the skin, the gel temporarily replaces lost volume, lifting cheeks, plumping lips and softening lines. Results last one to two years depending on the product used."
+      "Injected under the skin, the gel temporarily replaces lost volume, lifting cheeks, plumping lips, and softening lines. Results last one to two years depending on the product used."
     ],
     "options": [
-      { "name": "Cheeks", "text": "Lifts and restores volume to the mid-face." },
-      { "name": "Lips", "text": "Adds shape and fullness and softens vertical lip lines." },
-      { "name": "Smile lines", "text": "Softens the lines between the nose and mouth." }
+      {
+        "name": "Cheeks",
+        "text": "Lifts and restores volume to the mid-face."
+      },
+      {
+        "name": "Lips",
+        "text": "Adds shape and fullness and softens vertical lip lines."
+      },
+      {
+        "name": "Smile lines",
+        "text": "Softens the lines between the nose and mouth."
+      }
     ]
   },
   "steps": {
     "heading": "Your appointment",
     "items": [
-      ["Consultation", "Dr. Khan assesses your face and recommends the right product."],
-      ["Treatment", "Precise injections for a balanced, natural result."],
-      ["Follow-up", "A check to see how you look once any swelling settles."]
+      [
+        "Consultation",
+        "Dr. Khan assesses your face and recommends the right product."
+      ],
+      [
+        "Treatment",
+        "Precise injections for a balanced, natural result."
+      ],
+      [
+        "Follow-up",
+        "A check to see how you look once any swelling settles."
+      ]
     ]
   },
   "faq": [
-    ["How long do results last?", "One to two years, depending on the Juv&eacute;derm product and the area treated."],
-    ["Will I look overdone?", "The goal is to restore what time took away, not to change your face. Dr. Khan favors a natural result."],
-    ["Can fillers be combined with Botox?", "Yes. Botox treats expression lines and filler restores volume, so they work well together. <a class=\"ulink\" href=\"/botox\">See Botox</a>."],
-    ["What does it cost?", "[PRICE TO COME]. Pricing depends on the product and amount used."]
+    [
+      "How long do results last?",
+      "One to two years, depending on the Juv&eacute;derm product and the area treated."
+    ],
+    [
+      "Will I look overdone?",
+      "The goal is to restore what time took away, not to change your face. Dr. Khan favors a natural result."
+    ],
+    [
+      "Can fillers be combined with Botox?",
+      "Yes. Botox treats expression lines and filler restores volume, so they work well together. <a class=\"ulink\" href=\"/botox\">See Botox</a>."
+    ],
+    [
+      "What does it cost?",
+      "[PRICE TO COME]. Pricing depends on the product and amount used."
+    ]
   ],
-  "related": ["botox", "exosome-facial", "laser-skin-rejuvenation"],
+  "related": [
+    "botox",
+    "exosome-facial",
+    "laser-skin-rejuvenation"
+  ],
   "next": {
     "heading": "Bring back what time took.",
-    "para": "Book an aesthetic consultation with Dr. Khan."
+    "para": "Dr. Khan starts with your face as it is and recommends where restoring volume can make a natural difference."
   }
 }

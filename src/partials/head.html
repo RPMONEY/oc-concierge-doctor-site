@@ -40,9 +40,9 @@ p{margin:0}
 
 /* ---------- Type ---------- */
 .eyebrow{display:inline-flex;align-items:center;gap:10px;font-weight:700;font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--acc)}
-.eyebrow::before{content:"";flex:0 0 30px;height:13px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 14' fill='none' stroke='%2337616A' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='6' cy='7' r='4.6'/%3E%3Cpath d='M10.6 7H30M24.5 7v4M28.8 7v3'/%3E%3C/svg%3E") no-repeat center/contain}
+.eyebrow::before{content:"";flex:0 0 30px;height:12px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 12'%3E%3Ccircle cx='6' cy='6' r='4.4' fill='none' stroke='%2337616A' stroke-width='2.6'/%3E%3Cg fill='%2337616A'%3E%3Crect x='10.2' y='4.7' width='21.8' height='2.6'/%3E%3Crect x='22.6' y='6' width='2.6' height='4.6'/%3E%3Crect x='27.6' y='6' width='2.6' height='4.6'/%3E%3C/g%3E%3C/svg%3E") no-repeat center/contain}
 .on-ink .eyebrow{color:var(--acc-hi)}
-.on-ink .eyebrow::before{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 14' fill='none' stroke='%23CFE3E5' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='6' cy='7' r='4.6'/%3E%3Cpath d='M10.6 7H30M24.5 7v4M28.8 7v3'/%3E%3C/svg%3E")}
+.on-ink .eyebrow::before{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 12'%3E%3Ccircle cx='6' cy='6' r='4.4' fill='none' stroke='%23CFE3E5' stroke-width='2.6'/%3E%3Cg fill='%23CFE3E5'%3E%3Crect x='10.2' y='4.7' width='21.8' height='2.6'/%3E%3Crect x='22.6' y='6' width='2.6' height='4.6'/%3E%3Crect x='27.6' y='6' width='2.6' height='4.6'/%3E%3C/g%3E%3C/svg%3E")}
 .display{font-weight:800;font-size:clamp(44px,6vw,84px);line-height:1;letter-spacing:-.035em}
 .h1{font-weight:800;font-size:clamp(38px,4.6vw,64px);line-height:1.04;letter-spacing:-.035em}
 .h2{font-weight:800;letter-spacing:-.03em;font-size:clamp(30px,4vw,54px);line-height:1.04}
@@ -294,7 +294,7 @@ p{margin:0}
   .pillar[open]>summary>p{display:block}
   .pl-count{display:inline-flex}
   .pillar[open] .pl-count::after{transform:rotate(-135deg) translateY(-2px)}
-  .pillar h3{font-size:21px;white-space:nowrap}
+  .pillar h3{font-size:21px}
   .pillars{gap:10px}
 }
 @media (max-width:1060px){.pillars{grid-template-columns:1fr 1fr}.pillars .pillar:first-child{grid-column:1/-1}}

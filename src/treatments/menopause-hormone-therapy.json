@@ -5,11 +5,24 @@
   "name": "Menopause &amp; Hormone Therapy",
   "short": "Hot flashes, sleep, mood, bone health",
   "title": "Menopause Hormone Replacement Therapy in Tustin | OC Concierge Doctor",
-  "description": "Hormone replacement therapy for menopause in Tustin with Tariq A. Khan, MD. Customized HRT with blood testing and monitoring. Injections, patches, gels and pellets.",
+  "description": "Hormone replacement therapy for menopause in Tustin with Tariq A. Khan, MD. Customized HRT with blood testing and monitoring. Injections, patches, gels, and pellets.",
   "h1": "Feel like yourself through menopause.",
-  "lede": "When estrogen drops, symptoms can affect sleep, mood, intimacy and long-term health. Dr. Khan offers customized hormone replacement therapy, guided by blood testing and ongoing monitoring.",
+  "lede": "When estrogen drops, symptoms can affect sleep, mood, intimacy, and long-term health. Dr. Khan offers customized hormone replacement therapy, guided by blood testing and ongoing monitoring.",
   "glance": "Customized hormone therapy for menopause symptoms, monitored with regular labs.",
-  "facts": [["Labs first", "Comprehensive testing"], ["Your choice", "Injection, patch, gel, pellet"], ["Monitored", "Levels checked over time"]],
+  "facts": [
+    [
+      "Labs first",
+      "Comprehensive testing"
+    ],
+    [
+      "Your choice",
+      "Injection, patch, gel, pellet"
+    ],
+    [
+      "Monitored",
+      "Levels checked over time"
+    ]
+  ],
   "signs": {
     "heading": "Common symptoms",
     "intro": "Menopause usually arrives in the late 40s to early 50s, around 51 on average, when the ovaries stop producing estrogen.",
@@ -26,32 +39,67 @@
     "heading": "Why estrogen matters",
     "paras": [
       "Estrogen does more than regulate cycles. It helps maintain bone, preserves collagen in the skin, and keeps blood vessel walls and the vaginal lining elastic.",
-      "As levels fall, the risks of heart disease, bone loss and osteoporosis, vaginal atrophy and urinary incontinence rise, and skin can become drier and thinner. Hormone therapy aims to restore levels, ease symptoms and protect long-term health.",
-      "Hormone therapy is not right for everyone. Dr. Khan reviews your history, risks and goals with you before recommending it."
+      "As levels fall, the risks of heart disease, bone loss and osteoporosis, vaginal atrophy, and urinary incontinence rise, and skin can become drier and thinner. Hormone therapy aims to restore levels, ease symptoms, and protect long-term health.",
+      "Hormone therapy is not right for everyone. Dr. Khan reviews your history, risks, and goals with you before recommending it."
     ],
     "options": [
-      { "name": "Injections", "text": "Dosed at regular intervals in the office or at home." },
-      { "name": "Patch or gel", "text": "Applied to the skin daily or on a set schedule." },
-      { "meta": "Lasts 3 to 4 months", "name": "Pellet therapy", "text": "Bioidentical hormones in a rice-sized pellet placed under the skin, releasing a steady dose." }
+      {
+        "name": "Injections",
+        "text": "Dosed at regular intervals in the office or at home."
+      },
+      {
+        "name": "Patch or gel",
+        "text": "Applied to the skin daily or on a set schedule."
+      },
+      {
+        "meta": "Lasts 3 to 4 months",
+        "name": "Pellet therapy",
+        "text": "Bioidentical hormones in a rice-sized pellet placed under the skin, releasing a steady dose."
+      }
     ]
   },
   "steps": {
     "heading": "How treatment works",
     "items": [
-      ["Consultation &amp; labs", "Symptoms, history and comprehensive blood testing."],
-      ["Customized therapy", "The right hormones, dose and delivery method for you."],
-      ["Monitoring", "Regular labs and visits to keep levels where they should be."]
+      [
+        "Consultation &amp; labs",
+        "Symptoms, history, and comprehensive blood testing."
+      ],
+      [
+        "Customized therapy",
+        "The right hormones, dose, and delivery method for you."
+      ],
+      [
+        "Monitoring",
+        "Regular labs and visits to keep levels where they should be."
+      ]
     ]
   },
   "faq": [
-    ["Is hormone therapy safe?", "For many women it is a reasonable option, but benefits and risks depend on your age, health history and timing. Dr. Khan reviews them with you before starting."],
-    ["What are bioidentical hormones?", "Hormones that are chemically identical to the ones your body makes. Pellet therapy uses bioidentical hormones."],
-    ["How soon will I feel better?", "Many women notice changes within weeks. Timing varies by person and delivery method."],
-    ["What does it cost?", "[PRICE TO COME]. Visits and labs may be billed to insurance depending on your plan."]
+    [
+      "Is hormone therapy safe?",
+      "For many women it is a reasonable option, but benefits and risks depend on your age, health history, and timing. Dr. Khan reviews them with you before starting."
+    ],
+    [
+      "What are bioidentical hormones?",
+      "Hormones that are chemically identical to the ones your body makes. Pellet therapy uses bioidentical hormones."
+    ],
+    [
+      "How soon will I feel better?",
+      "Many women notice changes within weeks. Timing varies by person and delivery method."
+    ],
+    [
+      "What does it cost?",
+      "[PRICE TO COME]. Visits and labs may be billed to insurance depending on your plan."
+    ]
   ],
-  "related": ["low-testosterone", "primary-care", "botox"],
+  "related": [
+    "low-testosterone",
+    "primary-care",
+    "botox"
+  ],
   "next": {
     "heading": "Talk it through with a doctor.",
-    "para": "Book a consultation. Dr. Khan orders the right labs and walks you through your options."
+    "para": "Start with your symptoms, history, and the right labs. Dr. Khan will walk you through the options."
   }
 }

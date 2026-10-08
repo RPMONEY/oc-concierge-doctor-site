@@ -5,11 +5,24 @@
   "name": "CoolSculpting",
   "short": "Non-invasive fat freezing",
   "title": "CoolSculpting in Tustin | Non-Invasive Fat Reduction | OC Concierge Doctor",
-  "description": "CoolSculpting in Tustin with Tariq A. Khan, MD. Non-invasive fat freezing for the abdomen, flanks, thighs, back, under the chin and under the buttocks.",
+  "description": "CoolSculpting in Tustin with Tariq A. Khan, MD. Non-invasive fat freezing for the abdomen, flanks, thighs, back, under the chin, and under the buttocks.",
   "h1": "Freeze the fat. Skip the surgery.",
   "lede": "CoolSculpting is non-invasive body contouring. Controlled cooling freezes fat cells, which break down and are cleared by your body over the following weeks.",
   "glance": "Non-invasive fat reduction with no incisions and no needles.",
-  "facts": [["Non-invasive", "No incision"], ["Controlled cooling", "Targets fat cells"], ["Gradual", "Results over weeks"]],
+  "facts": [
+    [
+      "Non-invasive",
+      "No incision"
+    ],
+    [
+      "Controlled cooling",
+      "Targets fat cells"
+    ],
+    [
+      "Gradual",
+      "Results over weeks"
+    ]
+  ],
   "signs": {
     "heading": "Common areas",
     "intro": "Best for pinchable pockets of fat in patients close to their goal weight.",
@@ -32,19 +45,41 @@
   "steps": {
     "heading": "Your treatment",
     "items": [
-      ["Consultation", "Dr. Khan checks whether your areas are a good fit."],
-      ["Treatment", "An applicator cools the area while you relax."],
-      ["Results", "Fat reduction appears gradually over the following weeks."]
+      [
+        "Consultation",
+        "Dr. Khan checks whether your areas are a good fit."
+      ],
+      [
+        "Treatment",
+        "An applicator cools the area while you relax."
+      ],
+      [
+        "Results",
+        "Fat reduction appears gradually over the following weeks."
+      ]
     ]
   },
   "faq": [
-    ["Is there downtime?", "There are no incisions. Most patients return to normal activities right after treatment."],
-    ["Can the fat come back?", "Treated fat cells are eliminated. Gaining weight can enlarge the fat cells that remain, so a stable weight protects your result."],
-    ["What does it cost?", "[PRICE TO COME]. Pricing depends on the number of areas."]
+    [
+      "Is there downtime?",
+      "There are no incisions. Most patients return to normal activities right after treatment."
+    ],
+    [
+      "Can the fat come back?",
+      "Treated fat cells are eliminated. Gaining weight can enlarge the fat cells that remain, so a stable weight protects your result."
+    ],
+    [
+      "What does it cost?",
+      "[PRICE TO COME]. Pricing depends on the number of areas."
+    ]
   ],
-  "related": ["smartlipo", "kybella", "weight-loss"],
+  "related": [
+    "smartlipo",
+    "kybella",
+    "weight-loss"
+  ],
   "next": {
-    "heading": "Contour without surgery.",
-    "para": "Book a body contouring consultation with Dr. Khan."
+    "heading": "Focus on the areas that won't budge.",
+    "para": "Dr. Khan will assess the areas you want to treat and tell you whether CoolSculpting is a good fit."
   }
 }

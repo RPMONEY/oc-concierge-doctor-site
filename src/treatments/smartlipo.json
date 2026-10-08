@@ -5,14 +5,27 @@
   "name": "SmartLipo",
   "short": "Laser-assisted fat removal",
   "title": "SmartLipo Laser Liposuction in Tustin | OC Concierge Doctor",
-  "description": "SmartLipo laser-assisted liposuction in Tustin with Tariq A. Khan, MD. Minimally invasive fat removal for the abdomen, arms, thighs, hips, back and neck.",
+  "description": "SmartLipo laser-assisted liposuction in Tustin with Tariq A. Khan, MD. Minimally invasive fat removal for the abdomen, arms, thighs, hips, back, and neck.",
   "h1": "Remove stubborn fat through a tiny incision.",
   "lede": "SmartLipo is minimally invasive, laser-assisted liposuction. A thin laser tube liquefies fat cells, which are then gently suctioned out through a small incision.",
   "glance": "Laser-assisted liposuction for larger areas of stubborn fat.",
-  "facts": [["Minimally invasive", "Small incision"], ["Laser-assisted", "Fat is liquefied first"], ["Larger areas", "More fat removed"]],
+  "facts": [
+    [
+      "Minimally invasive",
+      "Small incision"
+    ],
+    [
+      "Laser-assisted",
+      "Fat is liquefied first"
+    ],
+    [
+      "Larger areas",
+      "More fat removed"
+    ]
+  ],
   "signs": {
     "heading": "Common areas",
-    "intro": "SmartLipo is designed for areas of fat that diet and exercise do not touch.",
+    "intro": "SmartLipo is designed for areas of stubborn fat that remain despite diet and exercise.",
     "items": [
       "Abdomen",
       "Arms",
@@ -33,19 +46,41 @@
   "steps": {
     "heading": "Your procedure",
     "items": [
-      ["Consultation", "Dr. Khan evaluates the area and whether SmartLipo is the right choice."],
-      ["Procedure", "Laser-assisted fat removal through a small incision."],
-      ["Recovery &amp; results", "Contours refine as swelling settles over the following weeks."]
+      [
+        "Consultation",
+        "Dr. Khan evaluates the area and whether SmartLipo is the right choice."
+      ],
+      [
+        "Procedure",
+        "Laser-assisted fat removal through a small incision."
+      ],
+      [
+        "Recovery &amp; results",
+        "Contours refine as swelling settles over the following weeks."
+      ]
     ]
   },
   "faq": [
-    ["SmartLipo or CoolSculpting?", "SmartLipo is minimally invasive and removes more fat in one procedure. CoolSculpting is non-invasive with no incision. Dr. Khan helps you choose. <a class=\"ulink\" href=\"/coolsculpting\">See CoolSculpting</a>."],
-    ["What is recovery like?", "[RECOVERY DETAILS TO COME FROM DR. KHAN]"],
-    ["What does it cost?", "[PRICE TO COME]. Pricing depends on the area."]
+    [
+      "SmartLipo or CoolSculpting?",
+      "SmartLipo is minimally invasive and removes more fat in one procedure. CoolSculpting is non-invasive with no incision. Dr. Khan helps you choose. <a class=\"ulink\" href=\"/coolsculpting\">See CoolSculpting</a>."
+    ],
+    [
+      "What is recovery like?",
+      "[RECOVERY DETAILS TO COME FROM DR. KHAN]"
+    ],
+    [
+      "What does it cost?",
+      "[PRICE TO COME]. Pricing depends on the area."
+    ]
   ],
-  "related": ["coolsculpting", "kybella", "weight-loss"],
+  "related": [
+    "coolsculpting",
+    "kybella",
+    "weight-loss"
+  ],
   "next": {
     "heading": "Shape what diet can't.",
-    "para": "Book a body contouring consultation with Dr. Khan."
+    "para": "Start with the area that bothers you. Dr. Khan will tell you whether SmartLipo or another option makes more sense."
   }
 }

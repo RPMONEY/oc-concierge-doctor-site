@@ -5,11 +5,24 @@
   "name": "Primary Care",
   "short": "Physicals, prevention, chronic care",
   "title": "Concierge Primary Care Doctor in Tustin | Tariq A. Khan, MD",
-  "description": "Concierge primary care in Tustin with board-certified internist Tariq A. Khan, MD. Physicals, preventive care, chronic disease management and same-day visits.",
+  "description": "Concierge primary care in Tustin with board-certified internist Tariq A. Khan, MD. Physicals, preventive care, chronic disease management, and same-day visits.",
   "h1": "One doctor who knows you.",
   "lede": "Dr. Khan is your first call for everything from annual physicals to a new symptom to a long-term condition. One doctor, one office, and appointments that usually happen the same day or the next.",
   "glance": "Primary care for adults and families, built around prevention and quick access.",
-  "facts": [["Same day", "Or next-day visits"], ["All ages", "Individuals &amp; families"], ["ABIM", "Board-certified internist"]],
+  "facts": [
+    [
+      "Same day",
+      "Or next-day visits"
+    ],
+    [
+      "All ages",
+      "Individuals &amp; families"
+    ],
+    [
+      "ABIM",
+      "Board-certified internist"
+    ]
+  ],
   "signs": {
     "heading": "What we handle",
     "intro": "If you are not sure where to start, start here. Dr. Khan sorts it out and refers you to a specialist only when you need one.",
@@ -32,29 +45,66 @@
       "Many health plans also require you to name a primary care physician. Dr. Khan accepts most PPO plans and Medicare, and offers an optional concierge membership for direct access."
     ],
     "options": [
-      { "name": "Annual physical", "text": "Exam, history and age-appropriate screening, with blood work drawn in the office." },
-      { "name": "Executive physical", "text": "A more thorough, efficient assessment for busy professionals." },
-      { "name": "Sports &amp; camp physicals", "text": "Clearance forms completed in a single visit." },
-      { "name": "Chronic care", "text": "Ongoing management and follow-up for long-term conditions." }
+      {
+        "name": "Annual physical",
+        "text": "Exam, history, and age-appropriate screening, with blood work drawn in the office."
+      },
+      {
+        "name": "Executive physical",
+        "text": "A more thorough, efficient assessment for busy professionals."
+      },
+      {
+        "name": "Sports &amp; camp physicals",
+        "text": "Clearance forms completed in a single visit."
+      },
+      {
+        "name": "Chronic care",
+        "text": "Ongoing management and follow-up for long-term conditions."
+      }
     ]
   },
   "steps": {
     "heading": "Getting started",
     "items": [
-      ["Call or request a visit", "Same-day and next-day appointments are usually available."],
-      ["Meet Dr. Khan", "He reviews your history, examines you and talks through your goals."],
-      ["Stay in touch", "Follow-ups, labs and referrals are handled by the same doctor every time."]
+      [
+        "Call or request a visit",
+        "Same-day and next-day appointments are usually available."
+      ],
+      [
+        "Meet Dr. Khan",
+        "He reviews your history, examines you, and talks through your goals."
+      ],
+      [
+        "Stay in touch",
+        "Follow-ups, labs, and referrals are handled by the same doctor every time."
+      ]
     ]
   },
   "faq": [
-    ["Do you take insurance?", "Yes. Dr. Khan accepts Aetna, Anthem, Cigna, Humana and Blue Cross Blue Shield PPO plans, plus Tricare and Medicare. He does not accept Medi-Cal, CalOptima or HMO plans. <a class=\"ulink\" href=\"/concierge#insurance\">See insurance details</a>."],
-    ["Do I need to join the concierge membership?", "No. Membership is optional. It adds direct access to Dr. Khan, an annual physical with labs, a yearly home visit and other benefits. <a class=\"ulink\" href=\"/concierge\">See membership</a>."],
-    ["Can I get labs done at the office?", "Yes. Blood is drawn in the office and sent out for testing."],
-    ["Do you see children?", "The practice cares for patients of all ages. Call the office to confirm availability for your child's visit."]
+    [
+      "Do you take insurance?",
+      "Yes. Dr. Khan accepts Aetna, Anthem, Cigna, Humana, and Blue Cross Blue Shield PPO plans, plus Tricare and Medicare. He does not accept Medi-Cal, CalOptima, or HMO plans. <a class=\"ulink\" href=\"/concierge#insurance\">See insurance details</a>."
+    ],
+    [
+      "Do I need to join the concierge membership?",
+      "No. Membership is optional. It adds direct access to Dr. Khan, an annual physical with labs, a yearly house call, and other benefits. <a class=\"ulink\" href=\"/concierge\">See membership</a>."
+    ],
+    [
+      "Can I get labs done at the office?",
+      "Yes. Blood is drawn in the office and sent out for testing."
+    ],
+    [
+      "Do you see children?",
+      "The practice cares for patients of all ages. Call the office to confirm availability for your child's visit."
+    ]
   ],
-  "related": ["urgent-care", "diabetes", "std-testing"],
+  "related": [
+    "urgent-care",
+    "diabetes",
+    "std-testing"
+  ],
   "next": {
     "heading": "Find your doctor. Keep your doctor.",
-    "para": "Call the office or send a request and we will find you a time, often the same day."
+    "para": "Call the office or send a request. We will find you a time, often the same day."
   }
 }

@@ -9,7 +9,20 @@
   "h1": "A sharper jawline, no surgery.",
   "lede": "Kybella is an injectable treatment for fat below the chin. Its active ingredient, deoxycholic acid, is a molecule your body already makes to break down dietary fat.",
   "glance": "Injectable fat reduction for a double chin.",
-  "facts": [["Injectable", "No incision"], ["Under the chin", "Targeted area"], ["Lasting", "Treated fat is cleared"]],
+  "facts": [
+    [
+      "Injectable",
+      "No incision"
+    ],
+    [
+      "Under the chin",
+      "Targeted area"
+    ],
+    [
+      "Lasting",
+      "Treated fat is cleared"
+    ]
+  ],
   "signs": {
     "heading": "Good for",
     "intro": "Kybella is for fullness under the chin that does not go away with diet and exercise.",
@@ -30,19 +43,41 @@
   "steps": {
     "heading": "Your treatment",
     "items": [
-      ["Consultation", "Dr. Khan evaluates your profile and whether Kybella fits."],
-      ["Injections", "A series of small injections under the chin."],
-      ["Results", "The area slims as your body clears the treated fat."]
+      [
+        "Consultation",
+        "Dr. Khan evaluates your profile and whether Kybella fits."
+      ],
+      [
+        "Injections",
+        "A series of small injections under the chin."
+      ],
+      [
+        "Results",
+        "The area slims as your body clears the treated fat."
+      ]
     ]
   },
   "faq": [
-    ["How many treatments will I need?", "Most patients need more than one session. Dr. Khan gives you an estimate at your consultation. [TO CONFIRM]"],
-    ["Is there swelling?", "Yes, swelling and tenderness under the chin are common for a few days after treatment."],
-    ["What does it cost?", "[PRICE TO COME]"]
+    [
+      "How many treatments will I need?",
+      "Most patients need more than one session. Dr. Khan gives you an estimate at your consultation. [TO CONFIRM]"
+    ],
+    [
+      "Is there swelling?",
+      "Yes, swelling and tenderness under the chin are common for a few days after treatment."
+    ],
+    [
+      "What does it cost?",
+      "[PRICE TO COME]"
+    ]
   ],
-  "related": ["coolsculpting", "smartlipo", "juvederm"],
+  "related": [
+    "coolsculpting",
+    "smartlipo",
+    "juvederm"
+  ],
   "next": {
-    "heading": "Define your profile.",
-    "para": "Book an aesthetic consultation with Dr. Khan."
+    "heading": "Change your profile without surgery.",
+    "para": "Start with an evaluation of the area under your chin. Dr. Khan will tell you whether Kybella fits your goals."
   }
 }
