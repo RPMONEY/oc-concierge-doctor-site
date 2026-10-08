@@ -1,0 +1,48 @@
+{
+  "slug": "kybella",
+  "order": 190,
+  "group": "aesthetics",
+  "name": "Kybella",
+  "short": "Double chin reduction",
+  "title": "Kybella Double Chin Treatment in Tustin | OC Concierge Doctor",
+  "description": "Kybella injections in Tustin with Tariq A. Khan, MD. Deoxycholic acid breaks down fat under the chin for a more defined profile, without surgery.",
+  "h1": "A sharper jawline, no surgery.",
+  "lede": "Kybella is an injectable treatment for fat below the chin. Its active ingredient, deoxycholic acid, is a molecule your body already makes to break down dietary fat.",
+  "glance": "Injectable fat reduction for a double chin.",
+  "facts": [["Injectable", "No incision"], ["Under the chin", "Targeted area"], ["Lasting", "Treated fat is cleared"]],
+  "signs": {
+    "heading": "Good for",
+    "intro": "Kybella is for fullness under the chin that does not go away with diet and exercise.",
+    "items": [
+      "Double chin",
+      "Fullness under the jaw",
+      "A softer neck profile",
+      "Patients who want to avoid surgery"
+    ]
+  },
+  "basics": {
+    "heading": "How Kybella works",
+    "paras": [
+      "Kybella contains deoxycholic acid. Injected into the fat beneath the chin, it breaks down the membranes of fat cells. Your body then absorbs and clears the destroyed fat.",
+      "Swelling under the chin is common for a few days after each session. Most patients need more than one treatment to reach their goal."
+    ]
+  },
+  "steps": {
+    "heading": "Your treatment",
+    "items": [
+      ["Consultation", "Dr. Khan evaluates your profile and whether Kybella fits."],
+      ["Injections", "A series of small injections under the chin."],
+      ["Results", "The area slims as your body clears the treated fat."]
+    ]
+  },
+  "faq": [
+    ["How many treatments will I need?", "Most patients need more than one session. Dr. Khan gives you an estimate at your consultation. [TO CONFIRM]"],
+    ["Is there swelling?", "Yes, swelling and tenderness under the chin are common for a few days after treatment."],
+    ["What does it cost?", "[PRICE TO COME]"]
+  ],
+  "related": ["coolsculpting", "smartlipo", "juvederm"],
+  "next": {
+    "heading": "Define your profile.",
+    "para": "Book an aesthetic consultation with Dr. Khan."
+  }
+}

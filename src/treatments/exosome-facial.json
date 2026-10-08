@@ -1,0 +1,59 @@
+{
+  "slug": "exosome-facial",
+  "order": 210,
+  "group": "regenerative",
+  "name": "Exosome Facials",
+  "short": "Texture, tone, pores, fine lines",
+  "title": "Exosome Facials in Tustin | OC Concierge Doctor",
+  "description": "Exosome facials in Tustin with Tariq A. Khan, MD, for texture, pores, tone, fine lines and scarring. Can be combined with microneedling, RF, peels and laser.",
+  "h1": "Skin renewal, from the inside out.",
+  "lede": "Exosomes are tiny messengers that cells use to communicate. Applied with microneedling or other treatments, they are used to support collagen and healing, with results that build over weeks and months.",
+  "glance": "An add-on that pairs exosomes with microneedling, peels or laser for skin renewal.",
+  "facts": [["Pairs with", "Microneedling, RF, laser"], ["Any skin type", "Any age"], ["Builds", "Over weeks and months"]],
+  "signs": {
+    "heading": "What it addresses",
+    "intro": "Exosome facials suit any skin type and are often added to another skin treatment.",
+    "items": [
+      "Fine lines and wrinkles",
+      "Enlarged pores",
+      "Acne scarring",
+      "Uneven tone and dullness",
+      "Age spots",
+      "Dry or sensitive skin",
+      "Redness and irritation",
+      "Loss of facial volume"
+    ]
+  },
+  "basics": {
+    "heading": "What exosomes are",
+    "paras": [
+      "Exosomes are microscopic vesicles released by cells. They carry proteins, growth factors and genetic signals from one cell to another. Researchers are studying how these signals may reduce inflammation and support tissue repair.",
+      "The exosomes Dr. Khan uses come from donated, screened human mesenchymal stem cells. They contain no living cells. In an exosome facial, they are applied right after a treatment that opens channels in the skin, such as microneedling."
+    ],
+    "options": [
+      { "name": "Microneedling", "text": "Tiny channels help exosomes reach deeper layers." },
+      { "name": "Microneedling with RF", "text": "Adds radiofrequency heat for firmer skin." },
+      { "name": "Chemical peels", "text": "Resurfacing paired with exosome recovery support." },
+      { "name": "Laser resurfacing", "text": "Exosomes applied after laser to support healing." }
+    ]
+  },
+  "steps": {
+    "heading": "Your treatment",
+    "items": [
+      ["Consultation", "Dr. Khan evaluates your skin and picks the best pairing."],
+      ["Treatment", "Your skin treatment, followed by exosome application."],
+      ["Results", "Skin improves gradually over weeks and months."]
+    ]
+  },
+  "faq": [
+    ["Is exosome therapy FDA-approved?", "No exosome product is FDA-approved to treat a medical condition. Dr. Khan uses exosomes as a complement to proven skin treatments and discusses what to expect with you."],
+    ["How long do results last?", "Improvement builds over weeks and months and can last a long time with good skin care. Results vary by person."],
+    ["Is there downtime?", "It depends on the treatment it is paired with. Exosomes themselves add little to no downtime."],
+    ["What does it cost?", "[PRICE TO COME]"]
+  ],
+  "related": ["laser-skin-rejuvenation", "exosome-hair-restoration", "juvederm"],
+  "next": {
+    "heading": "Renew your skin.",
+    "para": "Book a consultation and Dr. Khan will recommend the right pairing for your skin."
+  }
+}

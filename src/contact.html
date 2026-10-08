@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{{ROBOTS}}
+<title>Contact &amp; Directions | OC Concierge Doctor, Tustin</title>
+<meta name="description" content="Call 657.218.9859 or send a request to book with Tariq A. Khan, MD, in Tustin. Open Monday to Friday, 9 am to 6 pm, weekends by appointment.">
+<link rel="canonical" href="https://www.occonciergedoctor.com/contact">
+{{> head}}
+<style>
+.ct{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:24px;align-items:start}
+@media (max-width:960px){.ct{grid-template-columns:1fr}}
+.ct-card{display:flex;flex-direction:column;gap:6px;padding:20px 0;border-top:1px solid var(--on-line)}
+.ct-card:nth-child(2){border-top:0;padding-top:0}
+.ct-card a{text-decoration:none;color:var(--on)}
+.ct-card a:hover{color:var(--acc-hi)}
+#rq-done{display:none}
+#rq-done.on{display:flex}
+</style>
+</head>
+<body>
+{{> header}}
+<main id="main">
+
+<section class="wrap sec" style="padding-top:clamp(32px,4vw,56px)">
+<div class="stack gap-m" style="max-width:860px">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a><i>/</i><b>Contact</b></nav>
+<span class="eyebrow">Contact</span>
+<h1 class="h1">Let's get you seen.</h1>
+<p class="lede">The fastest way to book is to call. Same-day and next-day appointments are usually available. You can also send a request and the office will call you back.</p>
+</div>
+</section>
+
+<section class="wrap sec">
+<div class="ct">
+<aside class="panel-ink on-ink stack" id="visit">
+<div class="mark-bg" style="right:-24%;bottom:-16%;width:90%">{{> mark}}</div>
+<div class="ct-card"><span class="eyebrow">Call</span><a href="tel:+16572189859" class="h2" style="font-size:clamp(36px,3.6vw,48px)">657.218.9859</a></div>
+<div class="ct-card"><span class="eyebrow">Email</span><a href="mailto:info@occonciergedoctor.com" style="font-weight:700;font-size:18px;word-break:break-word">info@occonciergedoctor.com</a></div>
+<div class="ct-card"><span class="eyebrow">Office</span><span style="color:var(--on);font-weight:700;font-size:18px">[STREET ADDRESS]<br>Tustin, CA [ZIP]</span><a href="https://www.google.com/maps/search/?api=1&amp;query=OC+Concierge+Doctor+Tustin+CA" target="_blank" rel="noopener" class="ulink" style="align-self:flex-start;margin-top:6px">Get directions</a></div>
+<div class="ct-card"><span class="eyebrow">Hours</span><dl class="hours"><dt style="color:var(--on)">Mon to Fri</dt><dd>9 am to 6 pm</dd><dt style="color:var(--on)">Sat &amp; Sun</dt><dd>Closed, or by appointment</dd></dl></div>
+<div class="ct-card"><span class="eyebrow">House calls</span><p>Call or email with the reason for the visit and a callback number. House calls are included once a year for members, and from $300 otherwise, depending on location.</p></div>
+</aside>
+
+<div class="panel stack gap-l">
+<div class="stack gap-s"><span class="eyebrow">Request an appointment</span><h2 class="h3">Send a request</h2><p class="muted">We will call you back to confirm a time. Please do not include detailed medical information here.</p></div>
+<form id="rq" class="form-grid" novalidate>
+<div class="field"><label for="rq-name">Full name</label><input id="rq-name" name="name" autocomplete="name" required></div>
+<div class="field"><label for="rq-phone">Phone</label><input id="rq-phone" name="phone" type="tel" autocomplete="tel" required></div>
+<div class="field full"><label for="rq-email">Email</label><input id="rq-email" name="email" type="email" autocomplete="email"></div>
+<div class="field"><label for="rq-reason">What is it for?</label>
+<select id="rq-reason" name="reason">
+<option>Primary care or physical</option>
+<option>Urgent / same-day visit</option>
+<option>Concierge membership</option>
+<option>Aesthetic consultation</option>
+<option>Weight loss or hormones</option>
+<option>Regenerative / exosomes</option>
+<option>House call</option>
+<option>Something else</option>
+</select></div>
+<div class="field"><label for="rq-when">Best time to reach you</label>
+<select id="rq-when" name="when"><option>Any time</option><option>Morning</option><option>Afternoon</option><option>Evening</option></select></div>
+<div class="field full"><label for="rq-msg">Anything else? <span class="muted" style="font-weight:500">(optional)</span></label><textarea id="rq-msg" name="message"></textarea></div>
+<div class="full" style="display:flex;flex-wrap:wrap;align-items:center;gap:14px 20px">
+<button class="btn" type="submit">Send request</button>
+<span class="note" id="rq-err" role="alert"></span>
+</div>
+</form>
+<div id="rq-done" class="stack gap-s" role="status" style="border-top:1px solid var(--line);padding-top:20px">
+<b style="font-size:18px">Your email app should open with your request filled in.</b>
+<p class="muted">Press send there to reach the office. If nothing opened, call <a class="ulink" href="tel:+16572189859">657.218.9859</a> or email <a class="ulink" href="mailto:info@occonciergedoctor.com">info@occonciergedoctor.com</a>.</p>
+</div>
+<p class="note">For a medical emergency, call 911.</p>
+</div>
+</div>
+</section>
+
+<section class="wrap sec-last">
+<div class="panel split">
+<div class="side"><span class="eyebrow">Insurance</span><h2 class="h3">Most PPO plans and Medicare</h2></div>
+<div class="main stack gap-s" style="align-self:center">
+<div class="ins"><span>Aetna PPO</span><span>Anthem PPO</span><span>Blue Cross Blue Shield PPO</span><span>Cigna PPO</span><span>Humana PPO</span><span>Tricare</span><span>Medicare</span></div>
+<p class="muted" style="font-size:15px">Not accepted: Medi-Cal, CalOptima or HMO plans. <a class="ulink" href="/concierge#insurance">Insurance &amp; payment details</a></p>
+</div>
+</div>
+</section>
+
+</main>
+{{> footer}}
+<script>
+// No form backend yet: the request opens in the visitor's email app, addressed to the office.
+document.getElementById('rq').addEventListener('submit', function (e) {
+  e.preventDefault();
+  var f = e.target.elements, err = document.getElementById('rq-err');
+  var name = f['name'].value.trim(), phone = f.phone.value.trim();
+  if (!name || !phone) { err.textContent = 'Please add your name and phone number.'; (name ? f.phone : f['name']).focus(); return; }
+  err.textContent = '';
+  var body = 'Name: ' + name + '\nPhone: ' + phone + '\nEmail: ' + f.email.value.trim() +
+    '\nReason: ' + f.reason.value + '\nBest time: ' + f.when.value +
+    (f.message.value.trim() ? '\n\n' + f.message.value.trim() : '');
+  location.href = 'mailto:info@occonciergedoctor.com?subject=' + encodeURIComponent('Appointment request: ' + f.reason.value) + '&body=' + encodeURIComponent(body);
+  document.getElementById('rq-done').classList.add('on');
+});
+</script>
+<!-- build {{BUILD}} -->
+</body>
+</html>

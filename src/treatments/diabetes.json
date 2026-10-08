@@ -1,0 +1,58 @@
+{
+  "slug": "diabetes",
+  "order": 30,
+  "group": "medical",
+  "name": "Diabetes Care",
+  "short": "Early detection and ongoing care",
+  "title": "Diabetes Doctor in Tustin | Type 2 Diabetes Care | OC Concierge Doctor",
+  "description": "Type 2 diabetes screening, prevention and ongoing care in Tustin with Tariq A. Khan, MD. Nutrition support, exercise guidance and medication when needed.",
+  "h1": "Catch it early. Keep it controlled.",
+  "lede": "Type 2 diabetes often has no symptoms at first, which is why regular checkups matter. Dr. Khan screens for early signs and, after a diagnosis, provides ongoing nutritional and medical support to keep your blood sugar in range.",
+  "glance": "Screening, prevention and long-term management of type 2 diabetes.",
+  "facts": [["Screening", "At your wellness exam"], ["Nutrition", "Meal planning support"], ["Ongoing", "Follow-up &amp; adjustment"]],
+  "signs": {
+    "heading": "Early warning signs",
+    "intro": "Many people have no symptoms. If you notice any of these, schedule a visit and get checked.",
+    "items": [
+      "Increased thirst",
+      "Urinating more often",
+      "Increased hunger",
+      "Fatigue",
+      "Blurred vision",
+      "Numbness or tingling in hands or feet",
+      "Sores that heal slowly"
+    ]
+  },
+  "basics": {
+    "heading": "What type 2 diabetes is",
+    "paras": [
+      "Type 2 diabetes is a chronic condition in which blood sugar stays higher than normal, either because the pancreas makes too little insulin or because the body cannot use its insulin well. It is most common in middle-aged and older adults, but it can appear in teens and young adults too.",
+      "Over time, high blood sugar damages nerves and small blood vessels. That can lead to heart disease, nerve damage, vision loss, kidney disease and foot infections that heal poorly.",
+      "Risk factors include excess weight, inactivity, high blood pressure, high triglycerides, low HDL (good) cholesterol and a history of heart disease or stroke. Changing these can help prevent type 2 diabetes from developing."
+    ],
+    "options": [
+      { "name": "Nutrition", "text": "A nutrition review and a balanced meal plan, since certain carbohydrates spike blood sugar." },
+      { "name": "Exercise", "text": "Activity lowers blood sugar and supports healthy weight, circulation and blood pressure." },
+      { "name": "Medication", "text": "Considered when lifestyle changes alone do not control blood sugar." },
+      { "name": "Monitoring", "text": "Regular labs and visits to track progress and adjust the plan." }
+    ]
+  },
+  "steps": {
+    "heading": "A plan built around you",
+    "items": [
+      ["Screening", "Blood work and an exam, often as part of your annual physical."],
+      ["Your plan", "Diet, activity and medication if needed, tailored to your life."],
+      ["Ongoing care", "Follow-up visits and labs to keep blood sugar in range."]
+    ]
+  },
+  "faq": [
+    ["Can type 2 diabetes be prevented?", "Often, yes. Improving risk factors like weight, activity, blood pressure and cholesterol can prevent or delay it. Screening catches prediabetes early, while it is easiest to reverse."],
+    ["Will I need medication?", "Not always. Treatment often starts with diet and exercise. Medication is added if those changes do not bring blood sugar under control."],
+    ["Is diabetes care covered by insurance?", "Visits and labs are typically billed to your PPO plan or Medicare. Coverage depends on your plan."]
+  ],
+  "related": ["weight-loss", "primary-care", "low-testosterone"],
+  "next": {
+    "heading": "Know your numbers.",
+    "para": "A simple blood test tells you where you stand. Book a visit and Dr. Khan will walk you through the results."
+  }
+}

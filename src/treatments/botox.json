@@ -1,0 +1,108 @@
+{
+  "slug": "botox",
+  "order": 110,
+  "group": "aesthetics",
+  "name": "Botox",
+  "short": "Lines, sweating, migraine, TMJ",
+  "title": "Botox in Tustin | Physician-Injected | OC Concierge Doctor",
+  "description": "Botox in Tustin from Tariq A. Khan, MD. Softens crow's feet, forehead and frown lines, and treats underarm sweating, chronic migraine and TMJ tension.",
+  "h1": "Botox, placed by a physician.",
+  "lede": "Dr. Khan has years of experience injecting Botox. It softens the wrinkles that come from repeated expressions, and it also treats heavy sweating, chronic migraine and jaw tension.",
+  "glance": "Physician-injected Botox for expression lines and medical uses.",
+  "facts": [
+    [
+      "Physician",
+      "Dr. Khan injects"
+    ],
+    [
+      "Quick",
+      "Office visit"
+    ],
+    [
+      "Medical too",
+      "Sweating, migraine, TMJ"
+    ]
+  ],
+  "signs": {
+    "heading": "What it treats",
+    "intro": "Botox works on dynamic wrinkles, the ones caused by muscle movement. Lines from collagen loss respond better to fillers.",
+    "items": [
+      "Crow's feet",
+      "Forehead lines",
+      "Frown lines between the brows",
+      "Bunny lines on the nose",
+      "Neck bands",
+      "Heavy underarm sweating",
+      "Chronic migraine",
+      "TMJ pain and jaw tension"
+    ]
+  },
+  "basics": {
+    "heading": "How Botox works",
+    "paras": [
+      "Botox is a purified form of botulinum toxin. A small amount injected into a specific muscle blocks the nerve signal that makes it contract, so the muscle relaxes and the line above it softens.",
+      "The same nerve-blocking effect is used medically. Dr. Khan believes his background in art and music, combined with his aesthetic training, gives him an eye for natural, balanced results."
+    ],
+    "options": [
+      {
+        "meta": "Hyperhidrosis",
+        "name": "Underarm sweating",
+        "text": "Blocks the nerve signals that stimulate sweat glands."
+      },
+      {
+        "meta": "Adults with 15+ days a month",
+        "name": "Chronic migraine",
+        "text": "Used to help prevent migraines in adults who have them 15 or more days a month, lasting four hours or longer."
+      },
+      {
+        "meta": "Jaw",
+        "name": "TMJ &amp; grinding",
+        "text": "Eases soreness and facial muscle tension, and may relieve headaches caused by teeth grinding."
+      }
+    ]
+  },
+  "steps": {
+    "heading": "Your appointment",
+    "items": [
+      [
+        "Consultation",
+        "Dr. Khan looks at how your face moves and discusses your goals."
+      ],
+      [
+        "Treatment",
+        "A few quick injections with a fine needle."
+      ],
+      [
+        "Results",
+        "Effects appear over several days. Dr. Khan checks your result at follow-up."
+      ]
+    ]
+  },
+  "faq": [
+    [
+      "How long does Botox last?",
+      "Results typically last a few months. Most patients schedule maintenance treatments. [DR. KHAN TO CONFIRM TIMING]"
+    ],
+    [
+      "Is there downtime?",
+      "Most people return to normal activities right away."
+    ],
+    [
+      "Botox or filler?",
+      "Botox relaxes muscles that cause expression lines. Fillers like Juv&eacute;derm restore lost volume. Many patients use both. <a class=\"ulink\" href=\"/juvederm\">See Juv&eacute;derm</a>."
+    ],
+    [
+      "What does it cost?",
+      "[PRICE TO COME]. Concierge members have the office fee waived on cosmetic services."
+    ]
+  ],
+  "related": [
+    "juvederm",
+    "laser-skin-rejuvenation",
+    "exosome-facial"
+  ],
+  "next": {
+    "heading": "Look rested, not done.",
+    "para": "Book an aesthetic consultation with Dr. Khan."
+  }
+}

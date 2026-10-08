@@ -1,0 +1,12 @@
+/index.html / 301
+/services/primary-care-doctor.html /primary-care 301
+/services/diabetes.html /diabetes 301
+/services/urgent-care.html /urgent-care 301
+/services/botox-juvederm.html /botox 301
+/services/weight-loss.html /weight-loss 301
+/services/laser-aesthetics.html /laser-skin-rejuvenation 301
+/services/sexually-transmitted-disease-std-testing.html /std-testing 301
+/services/anti-aginghormone-replacement-therapy.html /menopause-hormone-therapy 301
+/services/anti-aging-exosomes.html /exosome-therapy 301
+/services/concierge.html /concierge 301
+/services/* /#care 301

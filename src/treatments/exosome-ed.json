@@ -1,0 +1,50 @@
+{
+  "slug": "exosome-ed",
+  "order": 240,
+  "group": "regenerative",
+  "name": "ED: Exosomes &amp; Shockwave",
+  "short": "Erection strength and blood flow",
+  "title": "Erectile Dysfunction Treatment in Tustin | Shockwave &amp; Exosomes | OC Concierge Doctor",
+  "description": "Erectile dysfunction treatment in Tustin with Tariq A. Khan, MD, combining low-intensity shockwave therapy and exosomes to target blood flow.",
+  "h1": "Address the blood flow behind ED.",
+  "lede": "Erection strength often fades gradually with age, sometimes without men noticing. Dr. Khan combines shockwave therapy with exosomes to target the blood-flow problems behind erectile dysfunction.",
+  "glance": "A combined approach aimed at the cause, with a full medical workup first.",
+  "facts": [["Shockwave", "Low-intensity"], ["Exosomes", "Added for repair"], ["Workup first", "Hormones &amp; heart health"]],
+  "signs": {
+    "heading": "Signs to talk about",
+    "intro": "ED can be an early sign of heart or hormone problems, so it is worth a full evaluation.",
+    "items": [
+      "Weaker erections than before",
+      "Trouble keeping an erection",
+      "Less morning erections",
+      "Medications that work less well",
+      "Low sex drive or fatigue"
+    ]
+  },
+  "basics": {
+    "heading": "Why blood flow matters",
+    "paras": [
+      "Most erectile dysfunction comes down to blood flow. Low-intensity shockwave therapy uses sound waves to stimulate the tissue, and exosomes are added for their potential role in supporting repair.",
+      "Because ED can signal heart disease, diabetes or low testosterone, Dr. Khan starts with a medical evaluation and labs, so you treat the cause and not only the symptom."
+    ]
+  },
+  "steps": {
+    "heading": "How it works",
+    "items": [
+      ["Evaluation", "History, exam and labs, including testosterone."],
+      ["Treatment", "Shockwave sessions combined with exosomes."],
+      ["Follow-up", "Dr. Khan tracks your response and adjusts the plan."]
+    ]
+  },
+  "faq": [
+    ["Is this FDA-approved?", "No exosome product is FDA-approved for erectile dysfunction, and shockwave for ED is still being studied. Dr. Khan reviews all options, including proven medications, with you."],
+    ["Is it painful?", "[DETAILS TO COME FROM DR. KHAN]"],
+    ["Could low testosterone be the cause?", "It can contribute. Dr. Khan checks your levels as part of the evaluation. <a class=\"ulink\" href=\"/low-testosterone\">See low testosterone</a>."],
+    ["What does it cost?", "[PRICE TO COME]"]
+  ],
+  "related": ["low-testosterone", "exosome-therapy", "std-testing"],
+  "next": {
+    "heading": "A private conversation with your doctor.",
+    "para": "Book a confidential consultation with Dr. Khan."
+  }
+}

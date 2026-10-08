@@ -1,0 +1,50 @@
+{
+  "slug": "laser-skin-rejuvenation",
+  "order": 130,
+  "group": "aesthetics",
+  "name": "Laser Skin Rejuvenation",
+  "short": "Laser Genesis for lines, pores, redness",
+  "title": "Laser Genesis Skin Rejuvenation in Tustin | OC Concierge Doctor",
+  "description": "Laser Genesis skin rejuvenation in Tustin with Tariq A. Khan, MD. Stimulates collagen to smooth fine lines, tighten pores, soften scars and calm redness and rosacea.",
+  "h1": "Smoother skin, no downtime.",
+  "lede": "Laser Genesis gently heats the deeper layers of skin to stimulate new collagen. It smooths texture, softens fine lines, tightens pores and reduces redness, with no anesthesia and no downtime.",
+  "glance": "A warm, relaxing laser treatment that builds collagen over a series of visits.",
+  "facts": [["No downtime", "Back to your day"], ["No anesthesia", "Warm, relaxing"], ["Collagen", "Builds over time"]],
+  "signs": {
+    "heading": "What it helps",
+    "intro": "Good for patients who want gradual improvement without peeling or recovery time.",
+    "items": [
+      "Fine lines and wrinkles",
+      "Enlarged pores",
+      "Uneven or rough texture",
+      "Acne and other scars",
+      "Facial redness and rosacea",
+      "Small visible blood vessels"
+    ]
+  },
+  "basics": {
+    "heading": "How it works",
+    "paras": [
+      "Laser Genesis delivers gentle heat below the skin's surface. That warmth stimulates collagen, the protein that keeps skin firm and smooth, and targets the small blood vessels behind redness and rosacea.",
+      "The treatment feels warm and relaxing. You may look slightly pink for a few hours afterward. Results build gradually over a series of sessions."
+    ]
+  },
+  "steps": {
+    "heading": "Your treatment",
+    "items": [
+      ["Consultation", "Dr. Khan evaluates your skin and recommends a plan."],
+      ["Sessions", "Short treatments with no anesthesia and no downtime."],
+      ["Results", "Collagen builds and skin improves over weeks."]
+    ]
+  },
+  "faq": [
+    ["Does it hurt?", "Most patients describe it as warm and relaxing. No anesthesia is needed."],
+    ["How many sessions will I need?", "Most patients do a series. Dr. Khan recommends a number based on your skin and goals. [TO CONFIRM]"],
+    ["What does it cost?", "[PRICE TO COME]"]
+  ],
+  "related": ["ipl-photofacial", "exosome-facial", "botox"],
+  "next": {
+    "heading": "Better skin on your lunch break.",
+    "para": "Book an aesthetic consultation and Dr. Khan will build a treatment plan for your skin."
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "tattoo-removal",
+  "order": 160,
+  "group": "aesthetics",
+  "name": "Laser Tattoo Removal",
+  "short": "Fade or remove unwanted ink",
+  "title": "Laser Tattoo Removal in Tustin | OC Concierge Doctor",
+  "description": "Laser tattoo removal in Tustin with Tariq A. Khan, MD. Typically 5 to 15 treatments spaced 6 to 12 weeks apart to fade or remove unwanted tattoos.",
+  "h1": "Take back your skin.",
+  "lede": "Laser tattoo removal breaks tattoo ink into tiny particles that your body clears away over time. Most tattoos take 5 to 15 treatments, spaced 6 to 12 weeks apart.",
+  "glance": "A planned series of laser sessions that fade ink a little more each time.",
+  "facts": [["5 to 15", "Treatments, typically"], ["6 to 12 weeks", "Between sessions"], ["Fade or remove", "Your choice"]],
+  "signs": {
+    "heading": "Good for",
+    "intro": "Removal works for full removal or for lightening a tattoo before a cover-up.",
+    "items": [
+      "Tattoos you no longer want",
+      "Fading a tattoo before a cover-up",
+      "Professional or amateur tattoos",
+      "Small or large designs"
+    ]
+  },
+  "basics": {
+    "heading": "Why it takes time",
+    "paras": [
+      "Each laser session shatters some of the ink into particles small enough for your immune system to carry away. That clearing happens between visits, which is why treatments are spaced 6 to 12 weeks apart.",
+      "The number of sessions depends on the tattoo's size, colors, depth and age, and on where it is on your body. Dr. Khan gives you a realistic estimate before you start."
+    ]
+  },
+  "steps": {
+    "heading": "Your treatment plan",
+    "items": [
+      ["Consultation", "Dr. Khan assesses the tattoo and estimates the number of sessions."],
+      ["Sessions", "Short laser treatments spaced 6 to 12 weeks apart."],
+      ["Fading", "The tattoo lightens after each session until your goal is met."]
+    ]
+  },
+  "faq": [
+    ["Does tattoo removal hurt?", "Many patients compare it to getting the tattoo. Sessions are short."],
+    ["Can every color be removed?", "Dark inks usually respond best. Some colors take more sessions. Dr. Khan will tell you what to expect for your tattoo."],
+    ["What does it cost?", "[PRICE TO COME]. Pricing depends on size."]
+  ],
+  "related": ["laser-hair-removal", "ipl-photofacial", "laser-skin-rejuvenation"],
+  "next": {
+    "heading": "Start the fade.",
+    "para": "Book a consultation and get an estimate for your tattoo."
+  }
+}

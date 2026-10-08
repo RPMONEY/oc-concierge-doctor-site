@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{{ROBOTS}}
+<title>OC Concierge Doctor | Tariq A. Khan, MD | Tustin, CA</title>
+<meta name="description" content="Concierge primary care, same-day urgent care, medical aesthetics and regenerative treatments in Tustin with board-certified internist Tariq A. Khan, MD. Membership from $100 a month.">
+<link rel="canonical" href="https://www.occonciergedoctor.com/">
+<meta property="og:title" content="OC Concierge Doctor | Tariq A. Khan, MD">
+<meta property="og:description" content="Your doctor, on call. Concierge primary care, urgent care and aesthetics in Tustin.">
+<meta property="og:type" content="website">
+{{> head}}
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"MedicalClinic","name":"OC Concierge Doctor","url":"https://www.occonciergedoctor.com/","telephone":"+1-657-218-9859","email":"info@occonciergedoctor.com","address":{"@type":"PostalAddress","addressLocality":"Tustin","addressRegion":"CA","addressCountry":"US"},"openingHours":"Mo-Fr 09:00-18:00","founder":{"@type":"Physician","name":"Tariq A. Khan, MD","medicalSpecialty":"InternalMedicine"},"sameAs":["https://www.facebook.com/occonciergedoctor/","https://x.com/occonciergedoc"]}</script>
+<style>
+.hero{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:40px 56px;align-items:stretch;padding-top:clamp(32px,4vw,56px)}
+.hero-photo{min-height:520px}
+@media (max-width:980px){.hero{grid-template-columns:1fr}.hero-photo{min-height:0;aspect-ratio:4/5;max-height:620px}}
+.cred{margin:0;padding:18px 0 0;list-style:none;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;gap:8px 22px;font-size:14.5px;color:var(--mute)}
+.cred li{display:inline-flex;align-items:center;gap:8px}
+.cred li::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--acc)}
+.member{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:40px 56px;align-items:center}
+@media (max-width:980px){.member{grid-template-columns:1fr}}
+.doc{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:40px 64px;align-items:center}
+.doc-photo{aspect-ratio:5/6}
+@media (max-width:900px){.doc{grid-template-columns:1fr}.doc-photo{max-width:520px}}
+.visit{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;background:var(--line);border-radius:var(--r-lg);overflow:hidden}
+.visit>div{background:var(--sand);padding:clamp(22px,3vw,36px);display:flex;flex-direction:column;gap:10px}
+@media (max-width:860px){.visit{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+{{> header}}
+<main id="main">
+
+<section class="wrap sec">
+<div class="hero">
+<div class="stack gap-l" style="justify-content:center">
+<span class="eyebrow">Concierge medicine · Tustin, Orange County</span>
+<h1 class="display">Your doctor,<br>on call.</h1>
+<p class="lede">Board-certified internist Tariq A. Khan, MD, offers concierge primary care, same-day urgent care and medical aesthetics, with the kind of access most doctors stopped offering years ago.</p>
+<div class="btn-row"><a href="/contact" class="btn">Request an appointment</a><a href="/concierge" class="btn btn-ghost">Membership from $100/mo</a></div>
+<ul class="cred" aria-label="Highlights">
+<li>Same-day &amp; next-day visits</li>
+<li>House calls</li>
+<li>Board-certified, internal medicine</li>
+<li>Most PPO plans &amp; Medicare</li>
+</ul>
+</div>
+<figure class="photo hero-photo" style="margin:0">
+{{> photo}}
+<figcaption><span class="tag"><b>Tariq A. Khan, MD</b><span>Internal medicine &amp; medical aesthetics</span></span></figcaption>
+</figure>
+</div>
+</section>
+
+<section class="wrap sec" id="care">
+<div class="panel stack gap-l">
+<div style="display:flex;justify-content:space-between;align-items:end;gap:16px 40px;flex-wrap:wrap">
+<div class="stack gap-s"><span class="eyebrow">What we do</span><h2 class="h2">Three kinds of care.<br>One doctor.</h2></div>
+<p class="muted" style="max-width:420px">From a sinus infection to Botox to a long-term hormone plan, you see Dr. Khan every time.</p>
+</div>
+<div class="pillars">
+<div class="pillar on-ink">
+<h3>Medical Care</h3>
+<p>Primary and urgent care, chronic conditions, weight and hormones.</p>
+<div class="tx-list">
+{{LIST:rows:medical}}
+</div>
+</div>
+<div class="pillar on-ink">
+<h3>Aesthetics</h3>
+<p>Injectables, lasers and body contouring, placed by a physician.</p>
+<div class="tx-list">
+{{LIST:rows:aesthetics}}
+</div>
+</div>
+<div class="pillar on-ink">
+<h3>Regenerative</h3>
+<p>Exosome treatments for skin, hair, ED and recovery support.</p>
+<div class="tx-list">
+{{LIST:rows:regenerative}}
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="wrap sec" id="membership">
+<div class="panel-ink on-ink">
+<div class="mark-bg" style="left:-12%;bottom:-40%;width:62%">{{> mark}}</div>
+<div class="member">
+<div class="stack gap-m">
+<span class="eyebrow">Concierge membership</span>
+<h2 class="h2">The key to your doctor.</h2>
+<p style="font-size:18px;max-width:520px">Members get direct access to Dr. Khan during the day, appointments the same day or next, a yearly physical with labs, and a house call every year.</p>
+<ul class="checks one" style="max-width:520px">
+<li>Same-day or next-day appointments, little to no wait</li>
+<li>Annual physical with blood work, EKG, cancer screening and STD testing</li>
+<li>One home visit per year</li>
+<li>Discounted imaging and labs, or billed to insurance</li>
+</ul>
+</div>
+<div class="stack gap-m">
+<div class="tiers rows">
+<div class="tier"><span class="age">Ages 17 to 45</span><span class="amt">$100<small>/mo</small></span></div>
+<div class="tier"><span class="age">Ages 46 to 64</span><span class="amt">$150<small>/mo</small></span></div>
+<div class="tier"><span class="age">Ages 65+</span><span class="amt">$200<small>/mo</small></span></div>
+</div>
+<p class="note">Family enrollment discounts available. Additional house calls from $300, depending on location.</p>
+<div class="btn-row"><a href="/concierge" class="btn btn-acc">See what's included</a><a href="tel:+16572189859" class="btn btn-ghost">Join by phone</a></div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="wrap sec" id="doctor">
+<div class="doc">
+<figure class="photo doc-photo" style="margin:0">
+{{> photo}}
+</figure>
+<div class="stack gap-m">
+<span class="eyebrow">Your physician</span>
+<h2 class="h2">Tariq A. Khan, MD</h2>
+<p class="lede" style="max-width:640px">Board-certified in internal medicine, trained in intensive care and hospital medicine in New York, and experienced in nonsurgical cosmetic procedures. Dr. Khan opened OC Concierge Doctor to give patients personal care and real access to their doctor.</p>
+<p class="muted" style="max-width:640px">Off the clock, he is an accomplished jazz and Latin drummer who has performed around the country. He believes that background in art and music sharpens his eye for aesthetic medicine.</p>
+<div class="facts" style="max-width:640px">
+<div><b>ABIM</b><span>Board-certified, internal medicine</span></div>
+<div><b>SUNY</b><span>Downstate Medical Center training</span></div>
+<div><b>ICU</b><span>Hospital &amp; intensive care experience</span></div>
+</div>
+<a href="/dr-khan" class="btn btn-ghost" style="align-self:flex-start;margin-top:8px">Read Dr. Khan's full bio</a>
+</div>
+</div>
+</section>
+
+<section class="wrap sec" id="insurance">
+<div class="panel split">
+<div class="side">
+<span class="eyebrow">Insurance</span>
+<h2 class="h2">Most PPO plans and Medicare.</h2>
+<p class="muted">Not sure about your plan? Call the office and we will check for you.</p>
+</div>
+<div class="main stack gap-m" style="align-self:center">
+<div class="ins">
+<span>Aetna PPO</span><span>Anthem PPO</span><span>Blue Cross Blue Shield PPO</span><span>Cigna PPO</span><span>Humana PPO</span><span>Tricare</span><span>Medicare</span>
+</div>
+<p class="muted" style="font-size:15px">Also accepted: cash, credit card, check and CareCredit. Not accepted: Medi-Cal, CalOptima or HMO plans.</p>
+</div>
+</div>
+</section>
+
+<section class="wrap sec" id="reviews">
+<div style="display:flex;justify-content:space-between;align-items:center;gap:20px 40px;flex-wrap:wrap;border-top:2px solid var(--ink);padding-top:28px">
+<div class="stack gap-s"><span class="eyebrow">Patient reviews</span><h2 class="h3">Hear it from patients.</h2></div>
+<a class="rv-badge" href="https://www.yelp.com/biz/tariq-ali-khan-md-orange-county-concierge-doctor-tustin-2" target="_blank" rel="noopener">
+<span aria-hidden="true" style="color:var(--acc);font-size:18px;letter-spacing:3px">★★★★★</span>
+<span style="display:flex;flex-direction:column;line-height:1.25"><b>Read reviews on Yelp</b><span class="muted" style="font-size:14px">[RATING &amp; COUNT TO COME]</span></span>
+</a>
+</div>
+</section>
+
+<section class="wrap sec" id="visit">
+<div class="visit">
+<div><span class="eyebrow">Call</span><a href="tel:+16572189859" class="h3" style="text-decoration:none">657.218.9859</a><span class="muted">Same-day and next-day appointments are usually available.</span></div>
+<div><span class="eyebrow">Hours</span><dl class="hours"><dt>Mon to Fri</dt><dd>9 am to 6 pm</dd><dt>Sat &amp; Sun</dt><dd>By appointment</dd></dl></div>
+<div><span class="eyebrow">Visit</span><span style="font-weight:700;font-size:18px">[STREET ADDRESS]<br>Tustin, CA [ZIP]</span><a href="/contact#visit" class="ulink" style="align-self:flex-start">Directions &amp; contact</a></div>
+</div>
+</section>
+
+<section class="wrap sec-last" id="start">
+<div class="panel-ink on-ink" style="display:flex;flex-wrap:wrap;gap:32px 48px;align-items:center">
+<div class="mark-bg" style="right:-6%;bottom:-30%;width:58%">{{> mark}}</div>
+<div style="flex:1 1 420px;min-width:0" class="stack gap-m">
+<span class="eyebrow">New patients</span>
+<h2 class="h2">Start with one visit.</h2>
+<p style="max-width:540px">Call the office or send a request. We will find you a time, often the same day, and help you decide whether membership makes sense.</p>
+</div>
+{{> cta}}
+</div>
+</section>
+
+</main>
+{{> footer}}
+<!-- build {{BUILD}} -->
+</body>
+</html>

@@ -1,0 +1,58 @@
+{
+  "slug": "urgent-care",
+  "order": 20,
+  "group": "medical",
+  "name": "Urgent Care",
+  "short": "Same-day care, no ER wait",
+  "title": "Same-Day Urgent Care in Tustin | OC Concierge Doctor",
+  "description": "Same-day and next-day urgent care in Tustin with Tariq A. Khan, MD. Infections, minor fractures, stitches, sprains, flu and more, without the ER wait.",
+  "h1": "Sick today? Be seen today.",
+  "lede": "When something comes up, call the office. Dr. Khan offers same-day and next-day appointments so a small problem gets treated before it becomes a bigger one, by a doctor who already knows your history.",
+  "glance": "Quick treatment for illness and minor injuries, from your own doctor.",
+  "facts": [["Same day", "Or next-day visits"], ["Shorter wait", "Than the ER"], ["Your doctor", "Continuity of care"]],
+  "signs": {
+    "heading": "What we treat",
+    "intro": "Not sure if it can wait, or if it needs the ER? Call us and we will help you decide.",
+    "items": [
+      "Urinary tract infections",
+      "Cold, flu and sore throat",
+      "Persistent cough",
+      "Headaches",
+      "Abdominal pain",
+      "Allergic reactions",
+      "Sprains, cuts, scrapes and burns",
+      "Wounds that need stitches",
+      "Minor fractures",
+      "Flare-ups of a chronic condition"
+    ]
+  },
+  "basics": {
+    "heading": "When to go to the ER instead",
+    "paras": [
+      "Urgent care in the office is faster and usually costs less than the emergency room, and your care stays with the doctor who manages the rest of your health.",
+      "Some situations need an emergency room right away. <b>Call 911</b> for a compound fracture (bone through the skin), seizures, loss of consciousness, heavy bleeding, severe burns, a serious head or neck injury, or poisoning."
+    ],
+    "options": [
+      { "meta": "Call 911", "name": "Heart attack signs", "text": "Chest pain or pressure, shortness of breath, arm, shoulder, back or jaw pain, nausea, or light-headedness. Women more often feel back or jaw pain." },
+      { "meta": "Call 911", "name": "Stroke signs: think FAST", "text": "<b>F</b>ace drooping or numb on one side, <b>A</b>rm weakness or numbness, <b>S</b>peech slurred or hard to understand, <b>T</b>ime to call 911." }
+    ]
+  },
+  "steps": {
+    "heading": "Same-day care in three steps",
+    "items": [
+      ["Call the office", "Tell us what is going on. We fit you in the same day or the next."],
+      ["See Dr. Khan", "Exam, diagnosis and treatment, with stitches, splints or prescriptions as needed."],
+      ["Follow up", "Dr. Khan checks in and adjusts care, since he is also your primary doctor."]
+    ]
+  },
+  "faq": [
+    ["Do I need to be a member for urgent care?", "No. Members get priority same-day or next-day appointments, but any patient can call for an urgent visit."],
+    ["Can you do stitches in the office?", "Yes. Wounds that need sutures are treated in the office."],
+    ["What if it happens on the weekend?", "Weekend visits are available by appointment. For a medical emergency, call 911 or go to the nearest emergency room."]
+  ],
+  "related": ["primary-care", "std-testing", "diabetes"],
+  "next": {
+    "heading": "Call now. Be seen soon.",
+    "para": "Most urgent problems can be seen the same day or the next. Call the office and tell us what is going on."
+  }
+}

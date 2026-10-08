@@ -1,0 +1,51 @@
+{
+  "slug": "ipl-photofacial",
+  "order": 140,
+  "group": "aesthetics",
+  "name": "IPL Photofacial",
+  "short": "Sun spots, age spots, veins",
+  "title": "IPL Photofacial in Tustin | Sun Spots &amp; Veins | OC Concierge Doctor",
+  "description": "IPL photofacials in Tustin with Tariq A. Khan, MD. Intense pulsed light fades sun spots, age spots and freckles and treats facial and leg veins.",
+  "h1": "Fade the spots. Even the tone.",
+  "lede": "An IPL photofacial uses intense pulsed light to target pigment and small blood vessels. Sun spots, age spots, freckles and visible veins fade, and skin tone looks more even.",
+  "glance": "Light-based treatment for pigment, redness and visible veins.",
+  "facts": [["Pigment", "Sun &amp; age spots"], ["Vessels", "Facial &amp; leg veins"], ["Quick", "Office treatment"]],
+  "signs": {
+    "heading": "What it treats",
+    "intro": "IPL works on color in the skin, brown pigment and red vessels.",
+    "items": [
+      "Sun spots",
+      "Age spots",
+      "Freckles",
+      "Facial veins",
+      "Leg veins",
+      "Enlarged pores",
+      "Scars"
+    ]
+  },
+  "basics": {
+    "heading": "How IPL works",
+    "paras": [
+      "Intense pulsed light passes through the skin and is absorbed by pigment and blood vessels. The targeted spots and vessels break down and fade over the following weeks while the surrounding skin is left intact.",
+      "Dark spots often look darker for a few days before they flake away. A series of treatments usually gives the most even result."
+    ]
+  },
+  "steps": {
+    "heading": "Your treatment",
+    "items": [
+      ["Consultation", "Dr. Khan checks your skin type and the spots or veins you want treated."],
+      ["Treatment", "Pulses of light over the area, usually in one short visit."],
+      ["Results", "Spots and vessels fade over a few weeks."]
+    ]
+  },
+  "faq": [
+    ["Is IPL right for every skin type?", "IPL works best on lighter skin tones. Dr. Khan will tell you at your consultation whether it is a good fit or recommend an alternative."],
+    ["Should I avoid the sun?", "Yes. Avoid tanning before and after treatment and wear sunscreen daily to protect your results."],
+    ["What does it cost?", "[PRICE TO COME]"]
+  ],
+  "related": ["laser-skin-rejuvenation", "laser-hair-removal", "exosome-facial"],
+  "next": {
+    "heading": "Even tone, clearer skin.",
+    "para": "Book an aesthetic consultation with Dr. Khan."
+  }
+}

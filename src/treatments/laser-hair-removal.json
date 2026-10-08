@@ -1,0 +1,50 @@
+{
+  "slug": "laser-hair-removal",
+  "order": 150,
+  "group": "aesthetics",
+  "name": "Laser Hair Removal",
+  "short": "Permanent hair reduction",
+  "title": "Laser Hair Removal in Tustin | OC Concierge Doctor",
+  "description": "Laser hair removal in Tustin with Tariq A. Khan, MD. Permanent hair reduction for the face, underarms, legs, bikini area and more, over a series of treatments.",
+  "h1": "Stop shaving. Start a series.",
+  "lede": "Laser hair removal disables hair follicles so they stop producing hair. Because follicles must be in their active growth phase to respond, it takes a series of treatments to catch them all.",
+  "glance": "Permanent hair reduction over a planned series of sessions.",
+  "facts": [["Permanent", "Hair reduction"], ["Series", "Timed to growth cycles"], ["Any area", "Face to legs"]],
+  "signs": {
+    "heading": "Popular areas",
+    "intro": "Almost any area with unwanted hair can be treated.",
+    "items": [
+      "Upper lip and chin",
+      "Underarms",
+      "Bikini line",
+      "Legs",
+      "Back and chest",
+      "Arms"
+    ]
+  },
+  "basics": {
+    "heading": "Why it takes several sessions",
+    "paras": [
+      "Laser energy is absorbed by the pigment in the hair and travels down to the follicle. Only follicles that are actively growing respond, and at any moment only some of your hair is in that phase.",
+      "Spacing treatments to match your hair's growth cycle lets each session catch a new set of follicles. Over the series, hair becomes sparser and finer until most of it is gone."
+    ]
+  },
+  "steps": {
+    "heading": "Your series",
+    "items": [
+      ["Consultation", "Dr. Khan reviews your skin and hair type and the areas you want treated."],
+      ["Treatments", "Sessions spaced to match your hair's growth cycle."],
+      ["Results", "Hair thins and stops growing back over the series."]
+    ]
+  },
+  "faq": [
+    ["Should I shave before treatment?", "Yes, shave the area beforehand but do not wax or pluck, since the laser needs the follicle in place."],
+    ["How many treatments will I need?", "Several, depending on the area and your hair. Dr. Khan gives you an estimate at your consultation. [TO CONFIRM]"],
+    ["What does it cost?", "[PRICE TO COME]. Pricing varies by area."]
+  ],
+  "related": ["ipl-photofacial", "tattoo-removal", "laser-skin-rejuvenation"],
+  "next": {
+    "heading": "Smooth, for good.",
+    "para": "Book a consultation and get a plan and estimate for the areas you want treated."
+  }
+}
