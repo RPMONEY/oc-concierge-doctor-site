@@ -1,9 +1,14 @@
 {
   "name": "oc-concierge-doctor-site",
   "compatibility_date": "2026-10-01",
+  // Page-view logging. See track.js.
+  "main": "track.js",
+  "observability": { "enabled": true, "head_sampling_rate": 1 },
   // Serve at oc-concierge-doctor-site.rp-100.workers.dev until the real domain is moved over.
   "workers_dev": true,
   // site/ is gitignored, so Cloudflare must build it before deploying.
   "build": { "command": "node build.mjs" },
-  "assets": { "directory": "./site", "not_found_handling": "404-page" }
+  "assets": {
+    "binding": "ASSETS",
+    "run_worker_first": true, "directory": "./site", "not_found_handling": "404-page" }
 }
